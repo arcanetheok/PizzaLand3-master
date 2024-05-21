@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 3,
   "conversionMode": 0,
-  "duration": 3.787,
+  "duration": 0.644308,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sound_toppingot.ogg",
+  "soundFile": "sound_toppingot.wav",
   "type": 0,
-  "volume": 0.6,
+  "volume": 1.0,
 }

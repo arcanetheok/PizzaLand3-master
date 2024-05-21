@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 3,
   "conversionMode": 0,
-  "duration": 2.377,
+  "duration": 2.149184,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sound_maxspeed.ogg",
+  "soundFile": "sound_maxspeed.wav",
   "type": 0,
-  "volume": 0.57,
+  "volume": 1.0,
 }
