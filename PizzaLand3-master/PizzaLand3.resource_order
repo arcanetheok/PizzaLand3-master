@@ -1,0 +1,27 @@
+{
+  "FolderOrderSettings": [
+    {"name":"POWER OFF POWER ON FOLDER","order":1,"path":"folders/Objects/POWER OFF POWER ON FOLDER.yy",},
+    {"name":"are_you_the_person_whose_named_pawappawappa","order":1,"path":"folders/Objects/POWER OFF POWER ON FOLDER/are_you_the_person_whose_named_pawappawappa.yy",},
+    {"name":"test_world","order":1,"path":"folders/Rooms/test_world.yy",},
+    {"name":"misc","order":4,"path":"folders/Sprites/misc.yy",},
+    {"name":"targdoor","order":2,"path":"folders/Sprites/targdoor.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"obj_worldmap","order":3,"path":"objects/obj_worldmap/obj_worldmap.yy",},
+    {"name":"spr_plain_tile","order":6,"path":"sprites/spr_plain_tile/spr_plain_tile.yy",},
+    {"name":"obj_worldmapspot","order":2,"path":"objects/obj_worldmapspot/obj_worldmapspot.yy",},
+    {"name":"bg_audioconfig","order":1,"path":"sprites/bg_audioconfig/bg_audioconfig.yy",},
+    {"name":"rm_worldmap","order":2,"path":"rooms/rm_worldmap/rm_worldmap.yy",},
+    {"name":"obj_targdoor3","order":2,"path":"objects/obj_targdoor3/obj_targdoor3.yy",},
+    {"name":"obj_targdoor5","order":4,"path":"objects/obj_targdoor5/obj_targdoor5.yy",},
+    {"name":"spr_targdoor5","order":4,"path":"sprites/spr_targdoor5/spr_targdoor5.yy",},
+    {"name":"spr_targdoor3","order":2,"path":"sprites/spr_targdoor3/spr_targdoor3.yy",},
+    {"name":"obj_targdoor2","order":1,"path":"objects/obj_targdoor2/obj_targdoor2.yy",},
+    {"name":"spr_worldmapspot","order":3,"path":"sprites/spr_worldmapspot/spr_worldmapspot.yy",},
+    {"name":"tile_poprocksplains","order":1,"path":"tilesets/tile_poprocksplains/tile_poprocksplains.yy",},
+    {"name":"spr_targdoor2","order":1,"path":"sprites/spr_targdoor2/spr_targdoor2.yy",},
+    {"name":"spr_targdoor4","order":3,"path":"sprites/spr_targdoor4/spr_targdoor4.yy",},
+    {"name":"obj_targdoor4","order":3,"path":"objects/obj_targdoor4/obj_targdoor4.yy",},
+    {"name":"spr_testyplains_bg","order":5,"path":"sprites/spr_testyplains_bg/spr_testyplains_bg.yy",},
+  ],
+}
