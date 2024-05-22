@@ -1306,7 +1306,7 @@
     {"id":{"name":"spr_bigbreakable","path":"sprites/spr_bigbreakable/spr_bigbreakable.yy",},},
     {"id":{"name":"spr_destroyable2","path":"sprites/spr_destroyable2/spr_destroyable2.yy",},},
     {"id":{"name":"spr_cheeseballblock","path":"sprites/spr_cheeseballblock/spr_cheeseballblock.yy",},},
-    {"id":{"name":"sprite387","path":"sprites/sprite387/sprite387.yy",},},
+    {"id":{"name":"spr_bigblockdestroyable","path":"sprites/spr_bigblockdestroyable/spr_bigblockdestroyable.yy",},},
     {"id":{"name":"spr_destroyable","path":"sprites/spr_destroyable/spr_destroyable.yy",},},
     {"id":{"name":"spr_cheeseblockreform","path":"sprites/spr_cheeseblockreform/spr_cheeseblockreform.yy",},},
     {"id":{"name":"spr_cheeseblock","path":"sprites/spr_cheeseblock/spr_cheeseblock.yy",},},
