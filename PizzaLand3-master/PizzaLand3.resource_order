@@ -7,6 +7,7 @@
     {"name":"targdoor","order":2,"path":"folders/Sprites/targdoor.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_hud_pizza_backdrop","order":11,"path":"sprites/spr_hud_pizza_backdrop/spr_hud_pizza_backdrop.yy",},
     {"name":"fire","order":10,"path":"sprites/fire/fire.yy",},
     {"name":"obj_firebro","order":3,"path":"objects/obj_firebro/obj_firebro.yy",},
     {"name":"obj_worldmap","order":3,"path":"objects/obj_worldmap/obj_worldmap.yy",},
@@ -19,6 +20,8 @@
     {"name":"obj_targdoor5","order":4,"path":"objects/obj_targdoor5/obj_targdoor5.yy",},
     {"name":"spr_trickytest_bg","order":7,"path":"sprites/spr_trickytest_bg/spr_trickytest_bg.yy",},
     {"name":"spr_targdoor5","order":4,"path":"sprites/spr_targdoor5/spr_targdoor5.yy",},
+    {"name":"spr_hud_pizza_face","order":13,"path":"sprites/spr_hud_pizza_face/spr_hud_pizza_face.yy",},
+    {"name":"spr_hud_pizza_border","order":12,"path":"sprites/spr_hud_pizza_border/spr_hud_pizza_border.yy",},
     {"name":"spr_targdoor3","order":2,"path":"sprites/spr_targdoor3/spr_targdoor3.yy",},
     {"name":"obj_targdoor2","order":1,"path":"objects/obj_targdoor2/obj_targdoor2.yy",},
     {"name":"spr_worldmapspot","order":3,"path":"sprites/spr_worldmapspot/spr_worldmapspot.yy",},
