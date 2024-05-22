@@ -19,11 +19,6 @@ if (jingle == 0)
 
         if (instance_exists(obj_noise_pushbutton) && obj_player.sprite_index != spr_player_idle)
             currentlyplaying = music_knight
-        if instance_exists(obj_noise_pushbutton)
-        {
-            if (obj_noise.hspeed != 0)
-                currentlyplaying = music_noiseappear
-        }
     }
 }
 if (instance_exists(obj_player) && obj_player.state != 57 && room != rank_room && room != timesuproom && obj_player.state != 16 && obj_player.sprite_index != obj_player.spr_Timesup)
@@ -36,11 +31,6 @@ if (jingle == 0)
     {
         audio_stop_all()
         scr_music(currentlyplaying)
-    }
-    if audio_is_paused(currentlyplaying)
-    {
-        audio_pause_all()
-        audio_resume_sound(currentlyplaying)
     }
 }
 if (room == rank_room)

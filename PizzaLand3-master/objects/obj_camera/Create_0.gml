@@ -15,7 +15,7 @@ timestop = 1
 zoom = 0
 chargecamera = 0
 alpha = 1
-window_set_size(960, 540)
+display_set_gui_size(960, 540)
 global.panicbg = 1
 global.maxwave = 0
 global.wave = 0

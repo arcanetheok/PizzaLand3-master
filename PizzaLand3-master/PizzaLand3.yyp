@@ -34,7 +34,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
@@ -269,7 +269,6 @@
     {"id":{"name":"obj_endlevelfade","path":"objects/obj_endlevelfade/obj_endlevelfade.yy",},},
     {"id":{"name":"obj_bossdefeatflash","path":"objects/obj_bossdefeatflash/obj_bossdefeatflash.yy",},},
     {"id":{"name":"obj_bangeffect","path":"objects/obj_bangeffect/obj_bangeffect.yy",},},
-    {"id":{"name":"obj_blackbars","path":"objects/obj_blackbars/obj_blackbars.yy",},},
     {"id":{"name":"obj_bumpeffect","path":"objects/obj_bumpeffect/obj_bumpeffect.yy",},},
     {"id":{"name":"obj_keyeffect","path":"objects/obj_keyeffect/obj_keyeffect.yy",},},
     {"id":{"name":"obj_doortransition","path":"objects/obj_doortransition/obj_doortransition.yy",},},
