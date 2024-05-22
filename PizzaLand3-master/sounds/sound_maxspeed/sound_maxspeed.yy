@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "sound_maxspeed.ogg",
   "type": 0,
-  "volume": 0.57,
+  "volume": 1.0,
 }
