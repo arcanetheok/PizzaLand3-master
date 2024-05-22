@@ -11,7 +11,7 @@ if (levelselect == 1)
         b += 1
     if key_up2
         b -= 1
-	b = clamp(b, 0, 0)
+	b = clamp(b, 0, 1)
     if (!instance_exists(obj_fadeout))
     {
         if key_jump
@@ -19,11 +19,11 @@ if (levelselect == 1)
             with (instance_create(x, y, obj_fadeout))
             {
                 if (other.b == 0)
-                {
                     obj_player.targetRoom = floort_room0
-					obj_player.targetDoor = "1"
-                    obj_player.character = "P"
-                }
+				else
+					obj_player.targetRoom = boss_room1
+				obj_player.targetDoor = "1"
+				obj_player.character = "P"
             }
         }
         if key_slap2

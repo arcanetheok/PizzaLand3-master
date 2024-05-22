@@ -156,6 +156,16 @@ function scr_player_mach2()
 	        state = 10
 	    }
 	}
+	if place_meeting(x + hsp, y, obj_baddie) {
+		scr_sound(sound_suplex1)
+	    movespeed = 0
+	    state = 65
+	    hsp = xscale * 2.5
+	    vsp = -3
+	    mach2 = 0
+	    image_index = 0
+	    instance_create((x - 10), (y + 10), obj_bumpeffect)
+	}
 	if ((!instance_exists(obj_dashcloud)) && grounded)
 	    instance_create(x, y, obj_dashcloud)
 	//if ((!grounded) && sprite_index != spr_secondjump2 && sprite_index != spr_mach2jump)

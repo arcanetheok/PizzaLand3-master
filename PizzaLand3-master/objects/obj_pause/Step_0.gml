@@ -15,6 +15,7 @@ if (!pause)
         instance_destroy(obj_retry)
         pause = 0
         instance_activate_all()
+		audio_resume_sound(obj_music.currentlyplaying)
     }
 }
 if (pause == 1)

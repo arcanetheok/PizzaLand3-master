@@ -8,7 +8,7 @@ function scr_player_climbwall()
 	    wallspeed -= 0.5
 	crouchslideAnim = 1
 	sprite_index = spr_climbwall
-	if (!key_attack)
+	if (!key_slap)
 	{
 	    state = 51
 	    sprite_index = spr_fall
@@ -33,7 +33,7 @@ function scr_player_climbwall()
 	image_speed = 0.6
 	if (!instance_exists(obj_cloudeffect))
 	    instance_create(x, (y + 43), obj_cloudeffect)
-	if (key_jump && key_attack)
+	if (key_jump && key_slap)
 	{
 	    if (mach2 >= 100)
 	    {
