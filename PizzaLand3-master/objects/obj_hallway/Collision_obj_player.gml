@@ -2,8 +2,6 @@ with (obj_player)
 {
     if (!instance_exists(obj_fadeout))
     {
-        player_y = other.target_y
-        player_x = other.target_x
         targetRoom = other.targetRoom
 		hallway = 1
 		hallwaydirection = sign(other.image_xscale)

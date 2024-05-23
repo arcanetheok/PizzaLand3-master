@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 3,
   "conversionMode": 0,
-  "duration": 0.626938,
+  "duration": 0.391429,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sound_points.mp3",
+  "soundFile": "sound_points.wav",
   "type": 0,
   "volume": 1.0,
 }

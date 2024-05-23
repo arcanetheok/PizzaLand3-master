@@ -21,7 +21,7 @@ if (levelselect == 1)
                 if (other.b == 0)
                     obj_player.targetRoom = floort_room0
 				else
-					obj_player.targetRoom = boss_room1
+					obj_player.targetRoom = floor1_room0
 				obj_player.targetDoor = "1"
 				obj_player.character = "P"
             }

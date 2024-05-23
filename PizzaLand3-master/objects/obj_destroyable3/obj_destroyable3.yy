@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprite387",
-    "path": "sprites/sprite387/sprite387.yy",
+    "name": "spr_bigblockdestroyable",
+    "path": "sprites/spr_bigblockdestroyable/spr_bigblockdestroyable.yy",
   },
   "spriteMaskId": null,
   "visible": true,

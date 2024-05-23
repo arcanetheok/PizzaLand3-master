@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 3,
   "conversionMode": 0,
-  "duration": 0.20898,
+  "duration": 0.426304,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sound_slaphit.ogg",
+  "soundFile": "sound_slaphit.wav",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.58,
 }
