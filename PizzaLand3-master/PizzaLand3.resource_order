@@ -8,7 +8,9 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_hud_pizza_backdrop","order":11,"path":"sprites/spr_hud_pizza_backdrop/spr_hud_pizza_backdrop.yy",},
+    {"name":"lgoo","order":16,"path":"sprites/lgoo/lgoo.yy",},
     {"name":"fire","order":10,"path":"sprites/fire/fire.yy",},
+    {"name":"laughing_hill_is_back","order":17,"path":"sprites/laughing_hill_is_back/laughing_hill_is_back.yy",},
     {"name":"obj_firebro","order":3,"path":"objects/obj_firebro/obj_firebro.yy",},
     {"name":"obj_worldmap","order":3,"path":"objects/obj_worldmap/obj_worldmap.yy",},
     {"name":"spr_plain_tile","order":6,"path":"sprites/spr_plain_tile/spr_plain_tile.yy",},
