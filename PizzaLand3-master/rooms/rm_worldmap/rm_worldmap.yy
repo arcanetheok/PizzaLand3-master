@@ -12,7 +12,6 @@
     {"name":"inst_2A2D4F1A","path":"rooms/rm_worldmap/rm_worldmap.yy",},
     {"name":"inst_1BACA14C","path":"rooms/rm_worldmap/rm_worldmap.yy",},
     {"name":"inst_3A7D7DC8","path":"rooms/rm_worldmap/rm_worldmap.yy",},
-    {"name":"inst_6E96453E","path":"rooms/rm_worldmap/rm_worldmap.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -22,7 +21,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A2D4F1A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_worldmap","path":"objects/obj_worldmap/obj_worldmap.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1BACA14C","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_worldmapspot","path":"objects/obj_worldmapspot/obj_worldmapspot.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A7D7DC8","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_worldmapspot","path":"objects/obj_worldmapspot/obj_worldmapspot.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":416.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6E96453E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_worldmapspot","path":"objects/obj_worldmapspot/obj_worldmapspot.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":448.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_51CD8229","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"tile_bigrocks","path":"sprites/tile_bigrocks/tile_bigrocks.yy",},"x":544.0,"y":-128.0,},

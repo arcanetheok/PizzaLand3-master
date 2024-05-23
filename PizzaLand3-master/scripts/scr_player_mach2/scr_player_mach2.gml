@@ -39,30 +39,8 @@ function scr_player_mach2()
 	    scr_sound(sound_jump)
 	    vsp = -9
 	}
-	if grounded
-	{
-	    if (machpunchAnim == 0 && sprite_index != spr_mach && sprite_index != spr_player_mach3 && sprite_index != spr_player_machhit)
-	    {
-	            sprite_index = spr_player_charge
-	    }
-	    //if (machpunchAnim == 1)
-	    //{
-	    //    if (punch == 0)
-	    //        sprite_index = spr_machpunch1
-	    //    if (punch == 1)
-	    //        sprite_index = spr_machpunch2
-	    //    if (floor(image_index) == 4 && sprite_index == spr_machpunch1)
-	    //    {
-	    //        punch = 1
-	    //        machpunchAnim = 0
-	    //    }
-	    //    if (floor(image_index) == 4 && sprite_index == spr_machpunch2)
-	    //    {
-	    //        punch = 0
-	    //        machpunchAnim = 0
-	    //    }
-	    //}
-	}
+	if (machpunchAnim == 0 && sprite_index != spr_mach && sprite_index != spr_player_mach3 && sprite_index != spr_player_machhit)
+		sprite_index = spr_player_charge
 	if (!grounded)
 	    machpunchAnim = 0
 	if (grounded && character == "P")
@@ -105,10 +83,7 @@ function scr_player_mach2()
 	//}
 	if move != 0 {
 		if move != xscale {
-			if xscale != 1
-				xscale = !xscale
-			else
-				xscale = -1
+			xscale *= -1
 			hsp = !hsp
 		}
 	}
@@ -119,18 +94,7 @@ function scr_player_mach2()
 	        machhitAnim = 0
 	    state = 61
 	}
-	if (scr_solid((x + 1), y) && xscale == 1 && (!(place_meeting((x + 1), y, obj_slope))) && (!(place_meeting((x + 1), y, obj_destructibles))) && (grounded || place_meeting((x + sign(hsp)), y, obj_railv)))
-	{
-	    scr_sound(sound_suplex1)
-	    movespeed = 0
-	    state = 65
-	    hsp = -2.5
-	    vsp = -3
-	    mach2 = 0
-	    image_index = 0
-	    instance_create((x + 10), (y + 10), obj_bumpeffect)
-	}
-	if (scr_solid((x - 1), y) && xscale == -1 && (!(place_meeting((x - 1), y, obj_slope))) && (!(place_meeting((x - 1), y, obj_destructibles))) && (grounded || place_meeting((x + sign(hsp)), y, obj_railv)))
+	if (scr_solid((x + xscale), y) && (!(place_meeting((x + xscale), y, obj_slope))) && (!(place_meeting((x + xscale), y, obj_destructibles))))
 	{
 	    scr_sound(sound_suplex1)
 	    movespeed = 0
@@ -141,30 +105,15 @@ function scr_player_mach2()
 	    image_index = 0
 	    instance_create((x - 10), (y + 10), obj_bumpeffect)
 	}
-	if (!grounded)
-	{
-	    if (scr_solid((x + 1), y) && xscale == 1 && (!(place_meeting((x + sign(hsp)), y, obj_slope))) && (!(place_meeting((x + 1), y, obj_destructibles))))
-	    {
-	        wallspeed = movespeed
-	        machhitAnim = 0
-	        state = 10
-	    }
-	    else if (scr_solid((x - 1), y) && xscale == -1 && (!(place_meeting((x + sign(hsp)), y, obj_slope))) && (!(place_meeting((x - 1), y, obj_destructibles))))
-	    {
-	        wallspeed = movespeed
-	        machhitAnim = 0
-	        state = 10
-	    }
-	}
-	if place_meeting(x + hsp, y, obj_baddie) {
+	if place_meeting(x + hsp, y, obj_baddie) || place_meeting(x + xscale, y, obj_baddie) {
 		scr_sound(sound_suplex1)
 	    movespeed = 0
 	    state = 65
-	    hsp = xscale * 2.5
+	    hsp = xscale * 4.5
 	    vsp = -3
 	    mach2 = 0
 	    image_index = 0
-	    instance_create((x - 10), (y + 10), obj_bumpeffect)
+	    instance_create((x + 10 * xscale), (y + 10), obj_bumpeffect)
 	}
 	if ((!instance_exists(obj_dashcloud)) && grounded)
 	    instance_create(x, y, obj_dashcloud)
