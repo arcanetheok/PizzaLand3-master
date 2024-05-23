@@ -109,8 +109,8 @@ function scr_player_mach2()
 		scr_sound(sound_suplex1)
 	    movespeed = 0
 	    state = 65
-	    hsp = xscale * 4.5
-	    vsp = -3
+	    hsp = -xscale * 7
+	    vsp = -4
 	    mach2 = 0
 	    image_index = 0
 	    instance_create((x + 10 * xscale), (y + 10), obj_bumpeffect)
