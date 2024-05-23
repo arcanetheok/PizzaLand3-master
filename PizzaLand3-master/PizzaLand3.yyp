@@ -617,6 +617,7 @@
     {"id":{"name":"spr_noiseHUD_mach1","path":"sprites/spr_noiseHUD_mach1/spr_noiseHUD_mach1.yy",},},
     {"id":{"name":"spr_noiseHUD_mach2","path":"sprites/spr_noiseHUD_mach2/spr_noiseHUD_mach2.yy",},},
     {"id":{"name":"spr_mouthhitbox","path":"sprites/spr_mouthhitbox/spr_mouthhitbox.yy",},},
+    {"id":{"name":"spr_entrance","path":"sprites/spr_entrance/spr_entrance.yy",},},
     {"id":{"name":"spr_hungrypillar_happy","path":"sprites/spr_hungrypillar_happy/spr_hungrypillar_happy.yy",},},
     {"id":{"name":"spr_hungrypillar_angry","path":"sprites/spr_hungrypillar_angry/spr_hungrypillar_angry.yy",},},
     {"id":{"name":"spr_hungrypillar_mouth","path":"sprites/spr_hungrypillar_mouth/spr_hungrypillar_mouth.yy",},},

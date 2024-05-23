@@ -16,6 +16,7 @@
     {"name":"floort_room1","order":1,"path":"rooms/floort_room1/floort_room1.yy",},
     {"name":"obj_worldmapspot","order":2,"path":"objects/obj_worldmapspot/obj_worldmapspot.yy",},
     {"name":"bg_audioconfig","order":1,"path":"sprites/bg_audioconfig/bg_audioconfig.yy",},
+    {"name":"spr_entrance","order":15,"path":"sprites/spr_entrance/spr_entrance.yy",},
     {"name":"rm_worldmap","order":2,"path":"rooms/rm_worldmap/rm_worldmap.yy",},
     {"name":"obj_targdoor3","order":2,"path":"objects/obj_targdoor3/obj_targdoor3.yy",},
     {"name":"obj_targdoor5","order":4,"path":"objects/obj_targdoor5/obj_targdoor5.yy",},
