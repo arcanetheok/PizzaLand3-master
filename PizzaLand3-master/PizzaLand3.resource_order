@@ -33,5 +33,6 @@
     {"name":"obj_targdoor4","order":3,"path":"objects/obj_targdoor4/obj_targdoor4.yy",},
     {"name":"Bg_forest2","order":9,"path":"sprites/Bg_forest2/Bg_forest2.yy",},
     {"name":"spr_testyplains_bg","order":5,"path":"sprites/spr_testyplains_bg/spr_testyplains_bg.yy",},
+    {"name":"spr_best_test_bg_youaintnoplaceholderyouarealg","order":14,"path":"sprites/spr_best_test_bg_youaintnoplaceholderyouarealg/spr_best_test_bg_youaintnoplaceholderyouarealg.yy",},
   ],
 }

@@ -30,5 +30,5 @@
     "path": "sprites/spr_targdoor1/spr_targdoor1.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

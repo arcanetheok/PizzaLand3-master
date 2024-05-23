@@ -1415,6 +1415,7 @@
     {"id":{"name":"tile_tutorialimage_tileset_sprite","path":"sprites/tile_tutorialimage_tileset_sprite/tile_tutorialimage_tileset_sprite.yy",},},
     {"id":{"name":"tile_tutorialimage_tileset","path":"tilesets/tile_tutorialimage_tileset/tile_tutorialimage_tileset.yy",},},
     {"id":{"name":"tile_tutorial_tileset_sprite","path":"sprites/tile_tutorial_tileset_sprite/tile_tutorial_tileset_sprite.yy",},},
+    {"id":{"name":"spr_best_test_bg_youaintnoplaceholderyouarealg","path":"sprites/spr_best_test_bg_youaintnoplaceholderyouarealg/spr_best_test_bg_youaintnoplaceholderyouarealg.yy",},},
     {"id":{"name":"tile_tutorial_tileset","path":"tilesets/tile_tutorial_tileset/tile_tutorial_tileset.yy",},},
     {"id":{"name":"tile_factory_tileset_sprite","path":"sprites/tile_factory_tileset_sprite/tile_factory_tileset_sprite.yy",},},
     {"id":{"name":"tile_factory_tileset","path":"tilesets/tile_factory_tileset/tile_factory_tileset.yy",},},
