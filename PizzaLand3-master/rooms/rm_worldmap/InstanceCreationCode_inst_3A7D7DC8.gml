@@ -1,3 +1,2 @@
-movedirections = ["RIGHT", -4, -4, -4]
-pointid = 1;
-rightid = 2;
+level = "LEVEL1";
+trgRoom = floort_room0;

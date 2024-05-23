@@ -1,4 +1,4 @@
-display_set_gui_size(960, 540)
+/*
 pal_swap_set(274, obj_player.paletteselect, 0)
 if (global.playerhealth == 8)
     draw_sprite_ext(spr_pizzahealthbar, 0, 100, 80, 1, 1, 1, c_white, alpha)
@@ -112,3 +112,4 @@ if (obj_player.state != 48)
     draw_sprite_ext(spr_inv, -1, 50, 30, 1, 1, 1, c_white, alpha)
 }
 draw_set_blend_mode(bm_normal)
+*/
