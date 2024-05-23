@@ -13,6 +13,7 @@
     {"name":"obj_worldmap","order":3,"path":"objects/obj_worldmap/obj_worldmap.yy",},
     {"name":"spr_plain_tile","order":6,"path":"sprites/spr_plain_tile/spr_plain_tile.yy",},
     {"name":"Object254","order":2,"path":"objects/Object254/Object254.yy",},
+    {"name":"floort_room1","order":1,"path":"rooms/floort_room1/floort_room1.yy",},
     {"name":"obj_worldmapspot","order":2,"path":"objects/obj_worldmapspot/obj_worldmapspot.yy",},
     {"name":"bg_audioconfig","order":1,"path":"sprites/bg_audioconfig/bg_audioconfig.yy",},
     {"name":"rm_worldmap","order":2,"path":"rooms/rm_worldmap/rm_worldmap.yy",},
