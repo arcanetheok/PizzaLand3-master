@@ -3,6 +3,7 @@ if (!pause)
     if (obj_player.key_start && room != rank_room && room != timesuproom)
     {
         pause = 1
+		stopmusic = 0
         audio_pause_sound(obj_music.currentlyplaying)
         instance_deactivate_all(true)
 		instance_activate_object(obj_audioconfig)
@@ -14,6 +15,7 @@ if (!pause)
         instance_destroy(obj_exit)
         instance_destroy(obj_retry)
         pause = 0
+		stopmusic = 1
         instance_activate_all()
 		audio_resume_sound(obj_music.currentlyplaying)
     }
@@ -59,6 +61,7 @@ if (pause == 1)
 			with obj_audioconfig {
 				event_user(0)
 			}
-        }
-    }
-}
+				}
+			}
+		}
+

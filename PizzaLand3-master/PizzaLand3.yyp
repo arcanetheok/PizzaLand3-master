@@ -34,7 +34,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.0.121",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
@@ -258,6 +258,7 @@
     {"id":{"name":"obj_bulletdisappear","path":"objects/obj_bulletdisappear/obj_bulletdisappear.yy",},},
     {"id":{"name":"obj_chargeeffect","path":"objects/obj_chargeeffect/obj_chargeeffect.yy",},},
     {"id":{"name":"obj_pogoeffect","path":"objects/obj_pogoeffect/obj_pogoeffect.yy",},},
+    {"id":{"name":"musics_pause","path":"sounds/musics_pause/musics_pause.yy",},},
     {"id":{"name":"obj_chainsaweffect","path":"objects/obj_chainsaweffect/obj_chainsaweffect.yy",},},
     {"id":{"name":"obj_explosioneffect","path":"objects/obj_explosioneffect/obj_explosioneffect.yy",},},
     {"id":{"name":"obj_pistoleffect","path":"objects/obj_pistoleffect/obj_pistoleffect.yy",},},
@@ -399,6 +400,7 @@
     {"id":{"name":"scr_player_tackle","path":"scripts/scr_player_tackle/scr_player_tackle.yy",},},
     {"id":{"name":"scr_player_ladder","path":"scripts/scr_player_ladder/scr_player_ladder.yy",},},
     {"id":{"name":"scr_player_victory","path":"scripts/scr_player_victory/scr_player_victory.yy",},},
+    {"id":{"name":"spr_pause_piv_break","path":"sprites/spr_pause_piv_break/spr_pause_piv_break.yy",},},
     {"id":{"name":"scr_player_comingoutdoor","path":"scripts/scr_player_comingoutdoor/scr_player_comingoutdoor.yy",},},
     {"id":{"name":"scr_player_Sjumpprep","path":"scripts/scr_player_Sjumpprep/scr_player_Sjumpprep.yy",},},
     {"id":{"name":"scr_player_Sjump","path":"scripts/scr_player_Sjump/scr_player_Sjump.yy",},},
