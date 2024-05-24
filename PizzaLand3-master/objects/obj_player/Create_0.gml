@@ -3,6 +3,7 @@ with (obj_player)
 {
     global.saveroom = ds_list_create()
     grav = 0.5
+	stop_running = 0;
     hsp = 0
     vsp = 0
     global.playerhealth = 5
