@@ -1,0 +1,19 @@
+numba Van
+Make New Room.
+Guau
+or you can skip this completely if you just duplicate a past room LMFAO!
+
+2.ENABLE VIEW PORTS! !1
+and view_camerae[0]
+Tree.
+Clear Display Buffer & Clear Viewport Background must be ON.
+4.
+Camera properties (and maybe even viewport properties),
+x: any you want
+y: any you want
+width: 960
+height: 540
+
+i might skip the camera properties and enabling view_camera[0] if i make a new camera but
+
+anyway that's coolio @arcayy plz Read bye
