@@ -5,4 +5,3 @@ for (var i = 0; i < 4; i++) {
 	var obj = asset_get_index("obj_targdoor" + _d[i])
 	if place_meeting(x, y, obj)
 		targetDoor = _d
-}

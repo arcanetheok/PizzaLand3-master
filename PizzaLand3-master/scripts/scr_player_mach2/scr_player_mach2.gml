@@ -1,10 +1,10 @@
 function scr_player_mach2()
 {
-	if (character == "P")
-	{
-	    if (windingAnim < 2000)
-	        windingAnim++
-	}
+	//if (character == "P")
+	//{
+	//    if (windingAnim < 2000)
+	//        windingAnim++
+	//}
 	if ((!(place_meeting(x, (y + 1), obj_railh))) && (!(place_meeting(x, (y + 1), obj_railh2))))
 	    hsp = (xscale * movespeed)
 	else if place_meeting(x, (y + 1), obj_railh)
@@ -13,19 +13,19 @@ function scr_player_mach2()
 	    hsp = ((xscale * movespeed) + 5)
 	move2 = (key_right2 + key_left2)
 	move = (key_right + key_left)
-	if (character == "N")
-	{
-	    if (movespeed < 24 && move == xscale)
-	    {
-	        movespeed += 0.05
-	        if ((!instance_exists(obj_crazyruneffect)) && movespeed > 12)
-	            instance_create(x, y, obj_crazyruneffect)
-	    }
-	    else if (movespeed > 12 && move != xscale)
-	        movespeed -= 0.05
-	}
-	if movespeed < 10
-		movespeed += 0.5;
+	//if (character == "N")
+	//{
+	//    if (movespeed < 24 && move == xscale)
+	//    {
+	//        movespeed += 0.05
+	//        if ((!instance_exists(obj_crazyruneffect)) && movespeed > 12)
+	//            instance_create(x, y, obj_crazyruneffect)
+	//    }
+	//    else if (movespeed > 12 && move != xscale)
+	//        movespeed -= 0.05
+	//}
+	if movespeed < 10 && !stop_running
+		movespeed += 0.25;
 	crouchslideAnim = 1
 	if ((!key_jump2) && jumpstop == 0 && vsp < 0.5)
 	{
@@ -34,7 +34,7 @@ function scr_player_mach2()
 	}
 	if (grounded && vsp > 0)
 	    jumpstop = 0
-	if (input_buffer_jump < 8 && grounded && (!((move == 1 && xscale == -1))) && (!((move == -1 && xscale == 1))) && key_slap)
+	if (input_buffer_jump < 8 && grounded)
 	{
 	    scr_sound(sound_jump)
 	    vsp = -9
@@ -45,8 +45,10 @@ function scr_player_mach2()
 	    machpunchAnim = 0
 	if (grounded && character == "P")
 	{
-	    if (mach2 < 10)
-	        mach2 += 1.5
+	    if (mach2 < 30)
+	        mach2 += 0.2
+		else
+			stop_running = true
 	    //if (mach2 >= 100)
 	    //{
 	    //    machhitAnim = 0
@@ -61,32 +63,22 @@ function scr_player_mach2()
 	if key_jump
 	    input_buffer_jump = 0
 	if !key_slap
-	{
-		hsp = 0
-	    state = 0
-	    image_index = 0
-	    mach2 = 0
-	}
-	//if (move == -1 && xscale == 1 && grounded)
-	//{
-	//    sprite_index = spr_machslideboost
-	//    state = 64
-	//    image_index = 0
-	//    mach2 = 35
-	//}
-	//if (move == 1 && xscale == -1 && grounded)
-	//{
-	//    sprite_index = spr_machslideboost
-	//    state = 64
-	//    image_index = 0
-	//    mach2 = 35
-	//}
-	if move != 0 {
-		if move != xscale {
-			xscale *= -1
-			hsp = !hsp
+		stop_running = true;
+	if stop_running {
+		movespeed = clamp(movespeed - 0.5, 0, 12);
+		if hsp = 0 {
+			state = 0;
+			stop_running = false;
 		}
+		
 	}
+	if move != 0 && move != xscale {
+		state = 0
+		hsp = 0;
+		stop_running = 0;
+		key_slap = 0;
+	}
+
 	if (key_down && grounded)
 	{
 	    sprite_index = spr_crouchslip
@@ -109,8 +101,8 @@ function scr_player_mach2()
 		scr_sound(sound_suplex1)
 	    movespeed = 0
 	    state = 65
-	    hsp = xscale * 4.5
-	    vsp = -3
+	    hsp = -xscale * 7
+	    vsp = -4
 	    mach2 = 0
 	    image_index = 0
 	    instance_create((x + 10 * xscale), (y + 10), obj_bumpeffect)

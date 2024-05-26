@@ -8,4 +8,5 @@ tomatodone = 0
 sausagedone = 0
 pineappledone = 0
 inaudioconfig = false;
+stopmusic = 0
 depth = -700

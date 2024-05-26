@@ -3,6 +3,7 @@ with (obj_player)
     if (!instance_exists(obj_fadeout))
     {
         targetRoom = other.targetRoom
+		targetDoor = other.targetDoor
 		hallway = 1
 		hallwaydirection = sign(other.image_xscale)
         other.visited = 1
