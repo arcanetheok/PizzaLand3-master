@@ -1,38 +1,15 @@
-if targetDoor == "1" {
-	if hallway
-		x = obj_targdoor1.x + (hallwaydirection * 100)
-	else
-		x = obj_targdoor1.x + 32
-	y = (obj_targdoor1.y - 14)
+var _d = ["1", "2", "3", "4", "5"]
+for (var i = 0; i < 4; i++) {
+	var obj = asset_get_index("obj_targdoor" + _d[i])
+	if targetDoor == _d[i] {
+		if hallway
+			x = obj.x + (hallwaydirection * 100)
+		else
+			x = obj.x + 32
+		y = (obj.y - 14)
+	}
 }
-if targetDoor == "2" {
-	if hallway
-		x = obj_targdoor2.x + (hallwaydirection * 100)
-	else
-		x = obj_targdoor2.x + 32
-	y = (obj_targdoor2.y - 14)
-}
-if targetDoor == "3" {
-	if hallway
-		x = obj_targdoor3.x + (hallwaydirection * 100)
-	else
-		x = obj_targdoor3.x + 32
-	y = (obj_targdoor3.y - 14)
-}
-if targetDoor == "4" {
-	if hallway
-		x = obj_targdoor4.x + (hallwaydirection * 100)
-	else
-		x = obj_targdoor4.x + 32
-	y = (obj_targdoor4.y - 14)
-}
-if targetDoor == "5" {
-	if hallway
-		x = obj_targdoor5.x + (hallwaydirection * 100)
-	else
-		x = obj_targdoor5.x + 32
-	y = (obj_targdoor5.y - 14)
-}
+
 hallway = 0;
 if (global.shroomfollow == 1)
     instance_create(x, y, obj_pizzakinshroom)

@@ -34,7 +34,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
@@ -161,6 +161,7 @@
     {"id":{"name":"obj_superspring","path":"objects/obj_superspring/obj_superspring.yy",},},
     {"id":{"name":"spr_iceblock_slide","path":"sprites/spr_iceblock_slide/spr_iceblock_slide.yy",},},
     {"id":{"name":"obj_beartrap","path":"objects/obj_beartrap/obj_beartrap.yy",},},
+    {"id":{"name":"howtomakearoom","path":"notes/howtomakearoom/howtomakearoom.yy",},},
     {"id":{"name":"obj_balloon","path":"objects/obj_balloon/obj_balloon.yy",},},
     {"id":{"name":"obj_dashpad","path":"objects/obj_dashpad/obj_dashpad.yy",},},
     {"id":{"name":"obj_bowlingball","path":"objects/obj_bowlingball/obj_bowlingball.yy",},},
@@ -447,7 +448,6 @@
     {"id":{"name":"pal_swap_index_palette","path":"scripts/pal_swap_index_palette/pal_swap_index_palette.yy",},},
     {"id":{"name":"pal_swap_set_tiles","path":"scripts/pal_swap_set_tiles/pal_swap_set_tiles.yy",},},
     {"id":{"name":"pal_swap_get_color_count","path":"scripts/pal_swap_get_color_count/pal_swap_get_color_count.yy",},},
-    {"id":{"name":"floort_room1","path":"rooms/floort_room1/floort_room1.yy",},},
     {"id":{"name":"scr_slope","path":"scripts/scr_slope/scr_slope.yy",},},
     {"id":{"name":"scr_solid","path":"scripts/scr_solid/scr_solid.yy",},},
     {"id":{"name":"scr_solid_player","path":"scripts/scr_solid_player/scr_solid_player.yy",},},
@@ -1517,7 +1517,6 @@
     {"roomId":{"name":"floor5_roomtreasure","path":"rooms/floor5_roomtreasure/floor5_roomtreasure.yy",},},
     {"roomId":{"name":"floort_room0","path":"rooms/floort_room0/floort_room0.yy",},},
     {"roomId":{"name":"rm_worldmap","path":"rooms/rm_worldmap/rm_worldmap.yy",},},
-    {"roomId":{"name":"floort_room1","path":"rooms/floort_room1/floort_room1.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
