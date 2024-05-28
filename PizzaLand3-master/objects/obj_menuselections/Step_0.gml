@@ -19,9 +19,9 @@ if (levelselect == 1)
             with (instance_create(x, y, obj_fadeout))
             {
                 if (other.b == 0)
-                    obj_player.targetRoom = floort_room0
+                    obj_player.targetRoom = ants_room1
 				else
-					obj_player.targetRoom = floor1_room0
+					obj_player.targetRoom = ants_room2
 				obj_player.targetDoor = "1"
 				obj_player.character = "P"
             }
