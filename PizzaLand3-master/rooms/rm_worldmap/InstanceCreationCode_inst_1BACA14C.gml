@@ -1,2 +1,2 @@
 level = "LEVEL2";
-trgRoom = floor1_room0
+trgRoom = ants_path0_room3

@@ -1,3 +1,6 @@
+//for (var i = 9; i > 0; i++){
+//with instance_create(blah, blah, blah) sprite_index = spr_bigdebris
+//}
 if (ds_list_find_index(global.saveroom, id) == -1)
 {
     with (instance_create((x + 32), (y + 32), obj_debris))

@@ -13,6 +13,7 @@
     {"name":"fire","order":816,"path":"sprites/fire/fire.yy",},
     {"name":"laughing_hill_is_back","order":823,"path":"sprites/laughing_hill_is_back/laughing_hill_is_back.yy",},
     {"name":"spr_iceblock_slide","order":2,"path":"sprites/spr_iceblock_slide/spr_iceblock_slide.yy",},
+    {"name":"spr_worldmap","order":833,"path":"sprites/spr_worldmap/spr_worldmap.yy",},
     {"name":"bg_ants","order":826,"path":"sprites/bg_ants/bg_ants.yy",},
     {"name":"tile_grass","order":2,"path":"tilesets/tile_grass/tile_grass.yy",},
     {"name":"musics_pause","order":1,"path":"sounds/musics_pause/musics_pause.yy",},

@@ -234,6 +234,7 @@
     {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},},
     {"id":{"name":"obj_easy","path":"objects/obj_easy/obj_easy.yy",},},
     {"id":{"name":"obj_100","path":"objects/obj_100/obj_100.yy",},},
+    {"id":{"name":"spr_worldmap","path":"sprites/spr_worldmap/spr_worldmap.yy",},},
     {"id":{"name":"obj_80","path":"objects/obj_80/obj_80.yy",},},
     {"id":{"name":"obj_40","path":"objects/obj_40/obj_40.yy",},},
     {"id":{"name":"obj_20","path":"objects/obj_20/obj_20.yy",},},
