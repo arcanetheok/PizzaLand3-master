@@ -12,7 +12,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
         shake_mag_acc = (3 / room_speed)
     }
     with (instance_create(x, y, obj_sausageman_dead))
-	sprite_index = spr_slimedead
+	sprite_index = spr_firechud_die
     if (reset == 0)
     {
         instance_create(x, (y + 30), obj_bangeffect)
@@ -30,7 +30,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
         if (stomped == 1 && shot == 0)
         {
             with (instance_create(x, y, obj_sausageman_dead))
-			sprite_index = spr_slimedead
+			sprite_index = spr_firechud_die
             with (obj_camera)
             {
                 shake_mag = 5
@@ -45,7 +45,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
         if (shot == 1 && stomped == 0)
         {
             with (instance_create(x, y, obj_sausageman_dead))
-			sprite_index = spr_slimedead
+			sprite_index = spr_firechud_die
             with (obj_camera)
             {
                 shake_mag = 20
