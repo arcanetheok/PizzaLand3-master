@@ -264,6 +264,7 @@
     {"id":{"name":"obj_explosioneffect","path":"objects/obj_explosioneffect/obj_explosioneffect.yy",},},
     {"id":{"name":"obj_pistoleffect","path":"objects/obj_pistoleffect/obj_pistoleffect.yy",},},
     {"id":{"name":"obj_shotgunjumpeffect","path":"objects/obj_shotgunjumpeffect/obj_shotgunjumpeffect.yy",},},
+    {"id":{"name":"floort_room1","path":"rooms/floort_room1/floort_room1.yy",},},
     {"id":{"name":"obj_superslameffect","path":"objects/obj_superslameffect/obj_superslameffect.yy",},},
     {"id":{"name":"obj_spikehurteffect","path":"objects/obj_spikehurteffect/obj_spikehurteffect.yy",},},
     {"id":{"name":"obj_stompeffect","path":"objects/obj_stompeffect/obj_stompeffect.yy",},},
@@ -1517,6 +1518,7 @@
     {"roomId":{"name":"floor5_roomtreasure","path":"rooms/floor5_roomtreasure/floor5_roomtreasure.yy",},},
     {"roomId":{"name":"floort_room0","path":"rooms/floort_room0/floort_room0.yy",},},
     {"roomId":{"name":"rm_worldmap","path":"rooms/rm_worldmap/rm_worldmap.yy",},},
+    {"roomId":{"name":"floort_room1","path":"rooms/floort_room1/floort_room1.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

@@ -7,14 +7,14 @@ if obj_pause.pause && obj_pause.inaudioconfig {
 		switch selected 
 		{
 			case 0:
-				global.master_volume = get_integer("MASTER VOLUME", 100) / 100
+				global.master_volume = clamp(get_integer("MASTER VOLUME", 100) / 100, 0, 1)
 				audio_master_gain(global.master_volume)
 			break
 			case 1:
-				global.music_volume = get_integer("MUSIC VOLUME", 100) / 100
+				global.music_volume = clamp(get_integer("MUSIC VOLUME", 100) / 100, 0, 1)
 			break
 			case 2:
-				global.sfx_volume = get_integer("SFX VOLUME", 80) / 100
+				global.sfx_volume = clamp(get_integer("SFX VOLUME", 80) / 100, 0, 1)
 			break
 		}
 	}
