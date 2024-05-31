@@ -5,8 +5,7 @@ with (obj_player)
         mach2 = 0
         obj_camera.chargecamera = 0
         ds_list_add(global.saveroom, id)
-        player_y = other.target_y
-        player_x = other.target_x
+        targetDoor = other.targetDoor
         targetRoom = other.targetRoom
         other.visited = 1
         image_index = 0
