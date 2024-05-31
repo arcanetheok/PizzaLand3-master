@@ -48,7 +48,7 @@ else if (global.collect > global.brank && shownrankb == 0)
 else if (global.collect > global.crank && shownrankc == 0)
 {
     image_speed = 0
-    message = "YOU GOT ENOUGH FOR RANK C"
+    message = "PLS REMOVE THIS BUG"
     showtext = 1
     alarm[0] = 200
     tvsprite = spr_tvrankc
