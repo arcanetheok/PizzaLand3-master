@@ -464,6 +464,7 @@
     {"id":{"name":"__background_get","path":"scripts/__background_get/__background_get.yy",},},
     {"id":{"name":"__background_get_element","path":"scripts/__background_get_element/__background_get_element.yy",},},
     {"id":{"name":"__background_get_internal","path":"scripts/__background_get_internal/__background_get_internal.yy",},},
+    {"id":{"name":"spr_corncollect","path":"sprites/spr_corncollect/spr_corncollect.yy",},},
     {"id":{"name":"__background_set","path":"scripts/__background_set/__background_set.yy",},},
     {"id":{"name":"__background_set_element","path":"scripts/__background_set_element/__background_set_element.yy",},},
     {"id":{"name":"__background_set_internal","path":"scripts/__background_set_internal/__background_set_internal.yy",},},

@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_sausagecollect",
-    "path": "sprites/spr_sausagecollect/spr_sausagecollect.yy",
+    "name": "spr_corncollect",
+    "path": "sprites/spr_corncollect/spr_corncollect.yy",
   },
   "spriteMaskId": {
     "name": "spr_sausagecollect",
