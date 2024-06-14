@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sound_superjumpcharge1",
+  "name": "sound_points2",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 3,
   "conversionMode": 0,
-  "duration": 0.548571,
+  "duration": 0.731417,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sound_superjumpcharge1.ogg",
+  "soundFile": "sound_points2.mp3",
   "type": 0,
   "volume": 1.0,
 }
