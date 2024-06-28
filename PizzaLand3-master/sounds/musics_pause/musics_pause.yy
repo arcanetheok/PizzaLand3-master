@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 96.07837,
+  "duration": 88.32,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "musics_pause.mp3",
   "type": 0,
-  "volume": 0.46,
+  "volume": 1.0,
 }

@@ -6,12 +6,13 @@ if (pause == 1)
     vspeed = -0.25
     hspeed = 0.25
 }
-
-if (pause == 1)
+		if (pause == 1)
 				{
+				if !audio_is_playing(musics_pause)
 				audio_play_sound(musics_pause, 1, true)
 				}
-if (stopmusic == 1)
+			if (stopmusic == 1)
 				{
 				audio_stop_sound(musics_pause)
 				}
+				
