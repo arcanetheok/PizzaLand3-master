@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_barrel",
   "bbox_bottom": 95,
-  "bbox_left": 30,
-  "bbox_right": 62,
-  "bbox_top": 49,
+  "bbox_left": 19,
+  "bbox_right": 81,
+  "bbox_top": 33,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71210361-6504-43e4-adab-c90e3c03eca2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a500c66c-7214-43ed-91e5-4241e1228001",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cd6aa526-6294-446e-942a-ec06ea0fbd03","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4fbc9682-82b3-4a6d-a8c4-f085fa1e32a0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"71210361-6504-43e4-adab-c90e3c03eca2","path":"sprites/spr_barrel/spr_barrel.yy",},},},"Disabled":false,"id":"f07d4a60-7afe-42a1-9f35-e2ab68a1500c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a500c66c-7214-43ed-91e5-4241e1228001","path":"sprites/spr_barrel/spr_barrel.yy",},},},"Disabled":false,"id":"9377b71a-4a2d-4933-9da1-7915bfbdfffc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

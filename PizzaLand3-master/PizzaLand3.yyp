@@ -193,7 +193,7 @@
     {"id":{"name":"obj_barrelspawner","path":"objects/obj_barrelspawner/obj_barrelspawner.yy",},},
     {"id":{"name":"obj_transformbarrelspawner","path":"objects/obj_transformbarrelspawner/obj_transformbarrelspawner.yy",},},
     {"id":{"name":"obj_transformbarrel","path":"objects/obj_transformbarrel/obj_transformbarrel.yy",},},
-    {"id":{"name":"obj_barrel","path":"objects/obj_barrel/obj_barrel.yy",},},
+    {"id":{"name":"obj_pushblock","path":"objects/obj_pushblock/obj_pushblock.yy",},},
     {"id":{"name":"obj_barrelfloat","path":"objects/obj_barrelfloat/obj_barrelfloat.yy",},},
     {"id":{"name":"obj_tomatoblock","path":"objects/obj_tomatoblock/obj_tomatoblock.yy",},},
     {"id":{"name":"obj_destructibleplatform","path":"objects/obj_destructibleplatform/obj_destructibleplatform.yy",},},
