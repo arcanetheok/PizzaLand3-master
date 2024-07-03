@@ -22,7 +22,7 @@ with (obj_player)
         other.x = obj_player.x
         other.y = (obj_player.y - 35)
         obj_tv.showtext = 1
-        obj_tv.message = "YOU GOT THE TOWER SECRET TREASURE!!!"
+        obj_tv.message = "YOU GOT A DISC ! PLACEHOLDER"
         obj_tv.alarm[0] = 150
         obj_music.jingle = 1
         ini_close()
