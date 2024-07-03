@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bg_ants",
-  "bbox_bottom": 540,
+  "bbox_bottom": 615,
   "bbox_left": 0,
-  "bbox_right": 469,
+  "bbox_right": 701,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c17f94ca-bc2a-485b-b6e1-f33c82f4dabe",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"623ea923-b5db-433a-9c23-81b644f00129",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 541,
+  "height": 616,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2de8e992-8360-4c75-b93c-5663abdbc46c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ba94f73f-292c-492b-b209-818b8301cfa8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c17f94ca-bc2a-485b-b6e1-f33c82f4dabe","path":"sprites/bg_ants/bg_ants.yy",},},},"Disabled":false,"id":"c4df215f-0f9d-4e0d-945f-27afb9880fad","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"623ea923-b5db-433a-9c23-81b644f00129","path":"sprites/bg_ants/bg_ants.yy",},},},"Disabled":false,"id":"29ca32f9-777d-4dce-b30d-fe7d426776fe","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 470,
+  "width": 702,
 }

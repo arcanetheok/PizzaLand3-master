@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 3,
   "conversionMode": 0,
-  "duration": 0.226757,
+  "duration": 0.697333,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": true,
   "sampleRate": 44100,
-  "soundFile": "sound_jump.wav",
+  "soundFile": "sound_jump.ogg",
   "type": 0,
-  "volume": 0.49,
+  "volume": 1.0,
 }
