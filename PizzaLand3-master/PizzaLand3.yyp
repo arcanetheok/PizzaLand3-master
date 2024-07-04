@@ -891,6 +891,7 @@
     {"id":{"name":"spr_player_supersidejump","path":"sprites/spr_player_supersidejump/spr_player_supersidejump.yy",},},
     {"id":{"name":"spr_player_supersidejumpprep","path":"sprites/spr_player_supersidejumpprep/spr_player_supersidejumpprep.yy",},},
     {"id":{"name":"spr_player_chainsawbump","path":"sprites/spr_player_chainsawbump/spr_player_chainsawbump.yy",},},
+    {"id":{"name":"fg_antsrock","path":"sprites/fg_antsrock/fg_antsrock.yy",},},
     {"id":{"name":"spr_player_chainsawcrouch","path":"sprites/spr_player_chainsawcrouch/spr_player_chainsawcrouch.yy",},},
     {"id":{"name":"spr_player_chainsawair","path":"sprites/spr_player_chainsawair/spr_player_chainsawair.yy",},},
     {"id":{"name":"spr_player_chainsawend2","path":"sprites/spr_player_chainsawend2/spr_player_chainsawend2.yy",},},

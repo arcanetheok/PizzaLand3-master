@@ -312,6 +312,7 @@
     {"name":"spr_player_supersidejump","order":527,"path":"sprites/spr_player_supersidejump/spr_player_supersidejump.yy",},
     {"name":"spr_player_supersidejumpprep","order":530,"path":"sprites/spr_player_supersidejumpprep/spr_player_supersidejumpprep.yy",},
     {"name":"spr_player_chainsawbump","order":529,"path":"sprites/spr_player_chainsawbump/spr_player_chainsawbump.yy",},
+    {"name":"fg_antsrock","order":837,"path":"sprites/fg_antsrock/fg_antsrock.yy",},
     {"name":"spr_player_chainsawcrouch","order":526,"path":"sprites/spr_player_chainsawcrouch/spr_player_chainsawcrouch.yy",},
     {"name":"spr_player_chainsawair","order":528,"path":"sprites/spr_player_chainsawair/spr_player_chainsawair.yy",},
     {"name":"spr_player_chainsawend2","order":525,"path":"sprites/spr_player_chainsawend2/spr_player_chainsawend2.yy",},
