@@ -164,7 +164,7 @@ function scr_player_normal()
 	    if (shotgunAnim == 1)
 	        sprite_index = spr_shotgun_jump
 	    instance_create(x, y, obj_highjumpcloud2)
-	    vsp = -11
+	    vsp = -11.5
 	    state = 51
 	    image_index = 0
 	    jumpAnim = 1
@@ -177,7 +177,7 @@ function scr_player_normal()
 	        sprite_index = spr_shotgun_jump
 	    instance_create(x, y, obj_highjumpcloud2)
 	    stompAnim = 0
-	    vsp = -11
+	    vsp = -11.5
 	    state = 51
 	    jumpAnim = 1
 	    jumpstop = 0

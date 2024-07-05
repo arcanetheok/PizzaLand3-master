@@ -1,2 +1,2 @@
-targetRoom = ants_path0_room3
+targetRoom = ants_path0_room2
 targetDoor = obj_targdoor2

@@ -1,1 +1,1 @@
-global.breaksound = sound_pizzagot
+global.breaksound = sound_suplex1

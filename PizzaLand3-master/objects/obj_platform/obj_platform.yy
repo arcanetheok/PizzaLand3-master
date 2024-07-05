@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_baddie",
-    "path": "sprites/spr_baddie/spr_baddie.yy",
+    "name": "spr_banban",
+    "path": "sprites/spr_banban/spr_banban.yy",
   },
   "spriteMaskId": null,
   "visible": false,
