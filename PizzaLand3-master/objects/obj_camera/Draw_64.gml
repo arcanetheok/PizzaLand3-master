@@ -1,4 +1,34 @@
+draw_sprite_ext(spr_hud_pumpkin_background, 0, 615, 402, 1, 1, 1, c_white, alpha)
+draw_sprite_ext(spr_hud_pumpkin_piv_smile, -1, 615, 402, 1, 1, 1, c_white, alpha)
+draw_sprite_ext(spr_hud_pumpkin, 0, 615, 402, 1, 1, 1, c_white, alpha)
+draw_set_font(font)
+draw_set_halign(fa_center)
+draw_set_color(c_white)
+draw_text(813, 460, string_hash_to_newline(global.collect))
+
 /*
+collecting a disc cahgning face
+if disccollecting = 1
+draw_sprite_ext(spr_hud_pumpkin_piv_disc, -1, 615, 402, 1, 1, 1, c_white, alpha)
+else 
+draw_sprite_ext(spr_hud_pumpkin_piv_smile, -1, 615, 402, 1, 1, 1, c_white, alpha)
+draw_sprite_ext(spr_hud_pumpkin, 0, 615, 402, 1, 1, 1, c_white, alpha)
+
+
+draw_sprite_ext(spr_hud_pumpkin_background, 0, 608, 392, 1, 1, 1, c_white, alpha)
+draw_sprite_ext(spr_hud_pumpkin_piv_smile, -1, 608, 392, 1, 1, 1, c_white, alpha)
+draw_sprite_ext(spr_hud_pumpkin, 0, 608, 392, 1, 1, 1, c_white, alpha)
+
+
+
+
+
+
+
+
+
+
+
 pal_swap_set(274, obj_player.paletteselect, 0)
 if (global.playerhealth == 8)
     draw_sprite_ext(spr_pizzahealthbar, 0, 100, 80, 1, 1, 1, c_white, alpha)

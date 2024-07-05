@@ -19,3 +19,4 @@ display_set_gui_size(960, 540)
 global.panicbg = 1
 global.maxwave = 0
 global.wave = 0
+font = font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!.1234567890:", 1, 0)

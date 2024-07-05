@@ -4,5 +4,5 @@ with (other.id)
     image_speed = 0.15
 	//img speed shld b 0.35
     global.collected = 0
-    global.collectsound = sound_points2
+    global.collectsound = sound_points3
 }
