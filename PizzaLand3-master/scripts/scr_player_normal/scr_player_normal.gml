@@ -149,10 +149,10 @@ function scr_player_normal()
 	    state = 51
 	    image_index = 0
 	}
-	if (key_slap && grounded && (!((scr_solid((x + 1), y) && xscale == 1 && (!(place_meeting((x + xscale), y, obj_slope)))))) && (!((scr_solid((x - 1), y) && xscale == -1 && (!(place_meeting((x + xscale), y, obj_slope)))))))
+	if (key_slap2 && grounded && (!((scr_solid((x + 1), y) && xscale == 1 && (!(place_meeting((x + xscale), y, obj_slope)))))) && (!((scr_solid((x - 1), y) && xscale == -1 && (!(place_meeting((x + xscale), y, obj_slope)))))))
 	{
 	    mach2 = 0
-	    movespeed = 5
+	    //movespeed = 5
 		sprite_index = spr_player_charge
 		image_index = 0
 		stop_running = 0

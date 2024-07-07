@@ -1,8 +1,9 @@
 scr_initinput()
-with (obj_player)
+with (obj_player) // what did mcpig mean by this -dist
 {
     global.saveroom = ds_list_create()
     grav = 0.5
+	run_time = 0 // wow im running -dist
 	stop_running = 0;
     hsp = 0
     vsp = 0

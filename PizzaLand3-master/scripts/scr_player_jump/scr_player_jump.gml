@@ -60,15 +60,15 @@
 	    image_index = 0
 	    freefallstart = 0
 	}
-	if (key_slap && fallinganimation < 40)
+	/*if (key_slap && fallinganimation < 40)
 	{
 	    mach2 = 0
-	    movespeed = 5
+	    //movespeed = 5
 		sprite_index = spr_player_charge
 		image_index = 0
 		state = 63
 		stop_running = 0
-	}
+	}*/
 	if (grounded && vsp > 0 && (!key_attack))
 	{
 	    if key_attack

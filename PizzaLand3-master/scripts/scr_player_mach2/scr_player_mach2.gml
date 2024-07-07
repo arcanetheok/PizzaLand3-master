@@ -5,6 +5,7 @@ function scr_player_mach2()
 	//    if (windingAnim < 2000)
 	//        windingAnim++
 	//}
+	run_time++
 	if ((!(place_meeting(x, (y + 1), obj_railh))) && (!(place_meeting(x, (y + 1), obj_railh2))))
 	    hsp = (xscale * movespeed)
 	else if place_meeting(x, (y + 1), obj_railh)
@@ -64,8 +65,24 @@ function scr_player_mach2()
 	}
 	if key_jump
 	    input_buffer_jump = 0
-	if !key_slap && movespeed > 8
+
+	if !key_slap && run_time > 55
+	{
 		stop_running = true;
+	}
+
+	if !grounded && (place_meeting(x, y + vsp, obj_solid) || place_meeting(x, y + vsp, obj_slope) || place_meeting(x, y + vsp, obj_platform)) && vsp > 0 && !key_slap
+	{
+		state = 0
+		hsp = 0;
+	}
+
+	if move != 0 && move != xscale
+	{
+		state = 0
+		hsp = 0;
+	}
+	
 	if stop_running {
 		movespeed = approach(movespeed, 0, 0.5);
 		if hsp == 0 // Dear Arcane, Please format your if statements better. I am going to kill you. - Dist

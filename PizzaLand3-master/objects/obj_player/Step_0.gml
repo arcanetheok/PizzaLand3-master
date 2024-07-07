@@ -281,6 +281,12 @@ with (obj_player)
             anger -= 1
         }
     }
+	
+	if state != 63
+	{
+		run_time = 0
+	}
+	
     if (state == 62 && grounded)
     {
         if (!audio_is_playing(sound_dash1))
