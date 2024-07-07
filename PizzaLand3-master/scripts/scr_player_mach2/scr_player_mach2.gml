@@ -24,8 +24,8 @@ function scr_player_mach2()
 	//    else if (movespeed > 12 && move != xscale)
 	//        movespeed -= 0.05
 	//}
-	if movespeed < 10 && !stop_running
-		movespeed += 0.25;
+	if movespeed < 11 && !stop_running
+		movespeed = approach(movespeed, 11, 0.3); 
 	crouchslideAnim = 1
 	if ((!key_jump2) && jumpstop == 0 && vsp < 0.5)
 	{
@@ -37,7 +37,7 @@ function scr_player_mach2()
 	if (input_buffer_jump < 8 && grounded)
 	{
 	    scr_sound(sound_jump)
-	    vsp = -9
+	    vsp = -9.5
 	}
 	if (machpunchAnim == 0 && sprite_index != spr_mach && sprite_index != spr_player_mach3 && sprite_index != spr_player_machhit)
 		sprite_index = spr_player_charge
@@ -67,17 +67,18 @@ function scr_player_mach2()
 	if !key_slap
 		stop_running = true;
 	if stop_running {
-		movespeed = clamp(movespeed - 0.5, 0, 12);
-		if hsp = 0 {
+		movespeed = approach(movespeed, 0, 0.5);
+		if hsp == 0 // Dear Arcane, Please format your if statements better. I am going to kill you. - Dist
+		{ 
 			state = 0;
 			stop_running = false;
 		}
 		
 	}
 	if move != 0 && move != xscale {
-		state = 0
-		hsp = 0;
-		stop_running = 0;
+	//	state = 0
+	//	hsp = 0;
+		stop_running = 1;
 		key_slap = 0;
 	}
 
@@ -93,8 +94,8 @@ function scr_player_mach2()
 	    scr_sound(sound_suplex1)
 	    movespeed = 0
 	    state = 65
-	    hsp = 2.5
-	    vsp = -3
+	    hsp = -xscale * 7
+	    vsp = -4
 	    mach2 = 0
 	    image_index = 0
 	    instance_create((x - 10), (y + 10), obj_bumpeffect)

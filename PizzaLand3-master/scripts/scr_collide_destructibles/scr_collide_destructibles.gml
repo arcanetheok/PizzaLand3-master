@@ -8,6 +8,21 @@ function scr_collide_destructibles()
 	            instance_destroy()
 	    }
 	}
+	else if !scr_transformationcheck() && place_meeting((x + hsp), y, obj_destructibles)
+	{
+		scr_sound(sound_suplex1)
+	    movespeed = 0
+	    state = 65
+	    hsp = -xscale * 7
+	    vsp = -4
+	    mach2 = 0
+	    image_index = 0
+	    instance_create((x + 10 * xscale), (y + 10), obj_bumpeffect)
+		// i really hope this works first try -dist
+		// it didnt work first try. -dist
+		// surely second try tho -dist
+		// IT WORKS -dist
+	}
 	if (state == 17 || state == 36 || state == 2)
 	{
 	    if place_meeting(x, (y + 1), obj_destructibles)

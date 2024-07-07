@@ -1,6 +1,6 @@
 if (global.playerhealth < 8 && obj_player.state != 48)
 {
-    scr_sound(sound_points)
+    scr_sound(sound_points2)
     global.playerhealth += 1
     with (instance_create(x, y, obj_knightdebris))
     {

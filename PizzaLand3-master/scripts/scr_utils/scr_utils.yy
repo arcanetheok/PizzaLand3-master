@@ -1,8 +1,8 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "wrap",
-  "isCompatibility": true,
+  "name": "scr_utils",
+  "isCompatibility": false,
   "isDnD": false,
   "parent": {
     "name": "Scripts",

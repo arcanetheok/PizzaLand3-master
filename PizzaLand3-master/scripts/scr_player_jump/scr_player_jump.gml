@@ -67,6 +67,7 @@
 		sprite_index = spr_player_charge
 		image_index = 0
 		state = 63
+		stop_running = 0
 	}
 	if (grounded && vsp > 0 && (!key_attack))
 	{

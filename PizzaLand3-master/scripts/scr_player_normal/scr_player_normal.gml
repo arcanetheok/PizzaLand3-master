@@ -155,6 +155,7 @@ function scr_player_normal()
 	    movespeed = 5
 		sprite_index = spr_player_charge
 		image_index = 0
+		stop_running = 0
 		state = 63
 	}
 	if (key_jump && grounded && (!key_down))

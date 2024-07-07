@@ -23,6 +23,16 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
                     suplexmove = 0
                     vsp = -11
                 }
+				if state == 63
+				{
+					movespeed = 0
+					state = 65
+					hsp = -xscale * 7
+					vsp = -4
+					mach2 = 0
+					image_index = 0
+					instance_create((x + 10 * xscale), (y + 10), obj_bumpeffect)
+				}
             }
             if (instance_exists(other.baddieID) && y < other.baddieID.y && attacking == 0 && state == 51 && vsp > 0 && other.baddieID.vsp >= 0 && sprite_index != spr_stompprep)
             {
@@ -109,6 +119,14 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
                     other.baddieID.thrown = 1
                     vsp = -5
                 }
+				//scr_sound(sound_suplex1)
+				movespeed = 0
+				state = 65
+				hsp = -xscale * 7
+				vsp = -4
+				mach2 = 0
+				image_index = 0
+				instance_create((x + 10 * xscale), (y + 10), obj_bumpeffect)
             }
             if (instance_exists(other.baddieID) && (state == 63 || state == 39) && other.baddieID.grounded == 1)
             {
@@ -145,6 +163,16 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
                     other.baddieID.thrown = 1
                     vsp = -5
                 }
+				if state == 63
+				{
+					movespeed = 0
+					state = 65
+					hsp = -xscale * 7
+					vsp = -4
+					mach2 = 0
+					image_index = 0
+					instance_create((x + 10 * xscale), (y + 10), obj_bumpeffect)
+				}
             }
             if (instance_exists(other.baddieID) && other.baddieID.state != 88 && attacking == 0 && state != 50 && state != 66 && (!(y < other.baddieID.y)) && (!(y > other.baddieID.y)) && grabbing == 0 && other.baddieID.state != 98 && state != 15 && state != 2)
             {

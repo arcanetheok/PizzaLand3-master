@@ -15,7 +15,7 @@ if (key_right2 && sprite_index == spr_pepcooter)
     if (global.paletteselect < 9)
     {
         global.paletteselect += 1
-        scr_sound(sound_points)
+        scr_sound(sound_points2)
     }
 }
 if ((-key_left2) && sprite_index == spr_pepcooter)
@@ -23,7 +23,7 @@ if ((-key_left2) && sprite_index == spr_pepcooter)
     if (global.paletteselect > 0)
     {
         global.paletteselect -= 1
-        scr_sound(sound_points)
+        scr_sound(sound_points2)
     }
 }
 if (sprite_index == spr_pepcooter && (!instance_exists(obj_superdashcloud)))

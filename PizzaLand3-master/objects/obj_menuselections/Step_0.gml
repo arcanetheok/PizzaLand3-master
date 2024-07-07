@@ -47,12 +47,12 @@ else if (levelselect == 0)
     if (key_up && (!instance_exists(obj_keyconfig)) && optionselect == 1)
     {
         optionselect = 0
-        scr_sound(sound_points)
+        scr_sound(sound_points2)
     }
     else if (key_down && (!instance_exists(obj_keyconfig)) && optionselect == 0)
     {
         optionselect = 1
-        scr_sound(sound_points)
+        scr_sound(sound_points2)
     }
     if (optionselect == 0)
         obj_cursor.y = (y - 24)
