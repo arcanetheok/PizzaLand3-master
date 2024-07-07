@@ -26,7 +26,7 @@ function scr_player_mach2()
 	//        movespeed -= 0.05
 	//}
 	if movespeed < 11 && !stop_running
-		movespeed = approach(movespeed, 11, 0.3); 
+		movespeed = approach(movespeed, 11, 0.125); 
 	crouchslideAnim = 1
 	if ((!key_jump2) && jumpstop == 0 && vsp < 0.5)
 	{
@@ -66,7 +66,7 @@ function scr_player_mach2()
 	if key_jump
 	    input_buffer_jump = 0
 
-	if !key_slap && run_time > 55
+	if !key_slap && run_time > 45
 	{
 		stop_running = true;
 	}
@@ -84,7 +84,7 @@ function scr_player_mach2()
 	}
 	
 	if stop_running {
-		movespeed = approach(movespeed, 0, 0.5);
+		movespeed = approach(movespeed, 0, 0.33);
 		if hsp == 0 // Dear Arcane, Please format your if statements better. I am going to kill you. - Dist
 		{ 
 			state = 0;
