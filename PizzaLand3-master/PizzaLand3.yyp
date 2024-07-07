@@ -1222,6 +1222,7 @@
     {"id":{"name":"spr_tvknight","path":"sprites/spr_tvknight/spr_tvknight.yy",},},
     {"id":{"name":"spr_tvrankstatus","path":"sprites/spr_tvrankstatus/spr_tvrankstatus.yy",},},
     {"id":{"name":"spr_tvhurt","path":"sprites/spr_tvhurt/spr_tvhurt.yy",},},
+    {"id":{"name":"spr_poopfart","path":"sprites/spr_poopfart/spr_poopfart.yy",},},
     {"id":{"name":"spr_tvbomb","path":"sprites/spr_tvbomb/spr_tvbomb.yy",},},
     {"id":{"name":"spr_tvclap","path":"sprites/spr_tvclap/spr_tvclap.yy",},},
     {"id":{"name":"spr_tvcomboresult","path":"sprites/spr_tvcomboresult/spr_tvcomboresult.yy",},},
