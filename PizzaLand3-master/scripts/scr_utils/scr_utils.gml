@@ -40,4 +40,9 @@ function wave(from, to, duration, offset) {
 /// @param state
 function scr_transformationcheck(plystate = state)
 {
+	if plystate != 66
+		return true
+	else
+		return false
+	// lmfao -dist
 }

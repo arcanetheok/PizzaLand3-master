@@ -64,7 +64,7 @@ function scr_player_mach2()
 	}
 	if key_jump
 	    input_buffer_jump = 0
-	if !key_slap
+	if !key_slap && movespeed > 8
 		stop_running = true;
 	if stop_running {
 		movespeed = approach(movespeed, 0, 0.5);
@@ -94,8 +94,8 @@ function scr_player_mach2()
 	    scr_sound(sound_suplex1)
 	    movespeed = 0
 	    state = 65
-	    hsp = -xscale * 7
-	    vsp = -4
+	    hsp = -xscale * 2.5
+	    vsp = -3
 	    mach2 = 0
 	    image_index = 0
 	    instance_create((x - 10), (y + 10), obj_bumpeffect)
