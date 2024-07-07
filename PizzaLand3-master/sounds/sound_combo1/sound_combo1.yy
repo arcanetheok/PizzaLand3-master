@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 3,
   "conversionMode": 0,
-  "duration": 1.933061,
+  "duration": 0.62,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "sound_combo1.ogg",
   "type": 0,
-  "volume": 0.55,
+  "volume": 0.5,
 }

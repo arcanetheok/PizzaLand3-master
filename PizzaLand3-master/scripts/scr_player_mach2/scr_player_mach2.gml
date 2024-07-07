@@ -45,10 +45,12 @@ function scr_player_mach2()
 	    machpunchAnim = 0
 	if (grounded && character == "P")
 	{
-	    if (mach2 < 30)
 	        mach2 += 0.2
-		else
-			stop_running = true
+			
+		//if (mach2 < 30)
+	   //     mach2 += 0.2
+	//	else
+	//		stop_running = true	
 	    //if (mach2 >= 100)
 	    //{
 	    //    machhitAnim = 0

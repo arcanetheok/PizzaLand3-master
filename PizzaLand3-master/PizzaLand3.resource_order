@@ -524,6 +524,7 @@
     {"name":"obj_skateboardebris1","order":318,"path":"sprites/obj_skateboardebris1/obj_skateboardebris1.yy",},
     {"name":"spr_pizzadebris","order":322,"path":"sprites/spr_pizzadebris/spr_pizzadebris.yy",},
     {"name":"spr_slimedebris","order":320,"path":"sprites/spr_slimedebris/spr_slimedebris.yy",},
+    {"name":"obj_5","order":4,"path":"objects/obj_5/obj_5.yy",},
     {"name":"spr_knightdebris","order":328,"path":"sprites/spr_knightdebris/spr_knightdebris.yy",},
     {"name":"spr_firechud_stun","order":319,"path":"sprites/spr_firechud_stun/spr_firechud_stun.yy",},
     {"name":"spr_baddiegibs","order":329,"path":"sprites/spr_baddiegibs/spr_baddiegibs.yy",},
@@ -848,5 +849,6 @@
     {"name":"spr_fakepeppino_crawl","order":2,"path":"sprites/spr_fakepeppino_crawl/spr_fakepeppino_crawl.yy",},
     {"name":"spr_fakepeppino_grabattack","order":3,"path":"sprites/spr_fakepeppino_grabattack/spr_fakepeppino_grabattack.yy",},
     {"name":"spr_testyplains_bg","order":1,"path":"sprites/spr_testyplains_bg/spr_testyplains_bg.yy",},
+    {"name":"spr_5","order":840,"path":"sprites/spr_5/spr_5.yy",},
   ],
 }
