@@ -1,6 +1,9 @@
+if (pivhouse != visible)
 draw_sprite_ext(spr_hud_pumpkin_background, 0, 615, 402, 1, 1, 1, c_white, alpha)
 draw_sprite_ext(spr_hud_pumpkin_piv_smile, -1, 615, 402, 1, 1, 1, c_white, alpha)
 draw_sprite_ext(spr_hud_pumpkin, 0, 615, 402, 1, 1, 1, c_white, alpha)
+
+
 draw_set_font(font)
 draw_set_halign(fa_center)
 draw_set_color(c_white)

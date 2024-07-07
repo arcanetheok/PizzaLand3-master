@@ -34,5 +34,5 @@
     "path": "sprites/spr_hallway/spr_hallway.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
