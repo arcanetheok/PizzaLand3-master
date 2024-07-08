@@ -1,18 +1,18 @@
 function scr_player_grab()
 {
 	grav = 0.5
-	anger = 100
+	//anger = 100
 	if ((!(place_meeting(x, (y + 1), obj_railh))) && (!(place_meeting(x, (y + 1), obj_railh2))))
 	    hsp = (xscale * movespeed)
 	else if place_meeting(x, (y + 1), obj_railh)
 	    hsp = ((xscale * movespeed) - 5)
 	else if place_meeting(x, (y + 1), obj_railh2)
 	    hsp = ((xscale * movespeed) + 5)
-	if (movespeed > 0)
-	    movespeed -= 1
+	//if (movespeed > 0)
+	//    movespeed -= 1
 	move = (key_left2 + key_right2)
 	image_speed = 0.35
-	if (key_slap2 && suplexhavetomash <= 0)
+	/*if (key_slap2 && suplexhavetomash <= 0)
 	{
 	    scr_sound(sound_slapswipe1)
 	    hsp = 0
@@ -21,13 +21,13 @@ function scr_player_grab()
 	    image_index = 0
 	    image_speed = 0.35
 	    scr_sound(sound_enemyslap)
-	}
-	if key_attack2
-	{
-	    state = 88
-	    instance_create(x, y, obj_jumpdust)
-	}
-	if (move == xscale)
+	}*/
+	//if key_attack2
+	//{
+	//    state = 88
+	//    instance_create(x, y, obj_jumpdust)
+	//}
+	if (move == xscale) && key_attack
 	{
 	    scr_sound(sound_suplex1)
 	    hsp = 0
@@ -37,7 +37,7 @@ function scr_player_grab()
 	    image_speed = 0.35
 	    scr_sound(sound_enemyslap)
 	}
-	if (move == (-xscale))
+	if (move == (-xscale)) && key_attack
 	{
 	    scr_sound(sound_suplex1)
 	    hsp = 0
@@ -47,7 +47,7 @@ function scr_player_grab()
 	    image_speed = 0.35
 	    scr_sound(sound_enemyslap)
 	}
-	if key_up
+	if key_up && key_attack
 	{
 	    scr_sound(sound_suplex1)
 	    hsp = 0
@@ -57,7 +57,7 @@ function scr_player_grab()
 	    image_speed = 0.35
 	    scr_sound(sound_enemyslap)
 	}
-	if key_down
+	if key_down && key_attack
 	{
 	    scr_sound(sound_suplex1)
 	    hsp = 0
@@ -80,7 +80,7 @@ function scr_player_grab()
 	    }
 	}
 	landAnim = 0
-	if key_jump
+	if key_jump && key_attack
 	{
 	    scr_sound(sound_jump)
 	    hsp = 0
@@ -93,4 +93,29 @@ function scr_player_grab()
 	}
 	if (floor(image_index) == (image_number - 1) && (sprite_index == spr_suplexmash1 || spr_suplexmash2 || spr_suplexmash3 || spr_suplexmash4))
 	    sprite_index = spr_grab
+		
+/*	if !key_attack
+	{
+		if move != 0 movespeed = approach(movespeed, 8, 0.3)
+		else movespeed = approach(movespeed, 0, 0.5)
+		
+		if move != xscale && move != 0
+		{
+			movespeed = 0
+			xscale = move
+		}
+		
+		if ((!key_jump2) && jumpstop == 0)
+		{
+		    vsp /= 2
+		    jumpstop = 1
+		}
+		if (grounded && vsp > 0)
+		    jumpstop = 0
+			
+		if key_jump 
+		{
+			vsp = -9
+		}
+	}*/
 }

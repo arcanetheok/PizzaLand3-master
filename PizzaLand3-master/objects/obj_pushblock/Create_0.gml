@@ -1,7 +1,10 @@
 hsp = 0
 vsp = 0
-grav = 0.4
+grav = 0.3
 bounce = 0
 startx = x
 starty = y
 grounded = 1
+state = 0
+thrown = 0
+slide = 1

@@ -1,7 +1,7 @@
 function scr_player_grabbing()
 {
-	if (!(place_meeting(x, y, obj_baddie)))
-	    state = 0
+	//if (!(place_meeting(x, y, obj_baddie)))
+	//    state = 0
 	move = (key_left + key_right)
 	hsp = (move * movespeed)
 	if ((!key_jump2) && jumpstop == 0 && vsp < 0.5 && stompAnim == 0)
@@ -17,26 +17,27 @@ function scr_player_grabbing()
 	    movespeed = 0
 	if (xscale == -1 && move == 1)
 	    movespeed = 0
-	if (key_attack && grounded)
+	if (key_attack2 && grounded)
 	{
 	    movespeed = 0
 	    image_index = 0
 	    state = 39
+		sprite_index = spr_player_grab
 	}
-	if (key_attack && (!grounded))
-	{
-	    movespeed = 0
-	    image_index = 0
-	    state = 34
-	}
-	if (key_jump && (!grounded))
+	//if (key_attack && (!grounded))
+	//{
+	//    movespeed = 0
+	//    image_index = 0
+	//    state = 34
+	//}
+	/*if (key_jump && (!grounded))
 	{
 	    movespeed = 0
 	    vsp = -11
 	    state = 35
 	    image_index = 0
 	    image_speed = 0.35
-	}
+	}*/
 	if (move == 0 && grounded)
 	{
 	    movespeed = 0
@@ -78,7 +79,7 @@ function scr_player_grabbing()
 	}
 	else
 	    image_speed = 0.35
-	if ((!instance_exists(obj_cloudeffect)) && (!(place_meeting(x, y, obj_water2))) && grounded && move != 0 && (floor(image_index) == 4 || floor(image_index) == 10))
+	if ((!instance_exists(obj_cloudeffect)) && grounded && move != 0 && (floor(image_index) == 4 || floor(image_index) == 10))
 	    instance_create(x, (y + 43), obj_cloudeffect)
 	if (grounded && vsp > 1)
 	    instance_create(x, y, obj_landcloud)

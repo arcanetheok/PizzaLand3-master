@@ -1,20 +1,32 @@
-if (vsp < 12)
-    vsp += grav
-if grounded
+
+switch state 
 {
-    hsp = 0
-    bounce = 0
+	case 0:
+	scr_pushblock_grabbable()
+	break
+	
+	case 101:
+	scr_pushblock_grabbed()
+	break
 }
-if (place_meeting((x - 5 * obj_player.xscale), y, obj_player) && (obj_player.state == 62 || obj_player.state == 63 || obj_player.state == 83) && bounce == 0)
+
+//if (vsp < 12)
+vsp += grav
+if state == 0 grav = 0.3
+if grounded && slide == 1
 {
-    vsp = -5
-    hsp = 5 * obj_player.xscale
-    bounce = 1
-    obj_player.state = 50
-    obj_player.image_index = 0
-    obj_player.mach2 = 0
-    audio_sound_gain(sound_hit, 0.7, 0) 
-    if (!audio_is_playing(sound_hit))
-        audio_play_sound(sound_hit, 1, false)
+    hsp = approach(hsp, 0, 0.5)
 }
+else if grounded
+{
+	hsp = 0
+}
+
+if thrown == 1 
+{
+	mask_index = spr_masknull
+	thrown = 0
+	slide = 1
+}
+
 scr_collide()

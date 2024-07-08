@@ -255,6 +255,9 @@ with (obj_player)
         case 80:
             scr_player_current()
             break
+		case 200:
+			scr_player_debugstate()
+			break
     }
 
     if (global.playerhealth <= 0 && state != 48)
@@ -267,7 +270,7 @@ with (obj_player)
         game_restart()
     if ((!instance_exists(baddiegrabbedID)) && (state == 39 || (state == 36 && sprite_index != spr_piledriverland) || state == 88))
         state = 0
-    if (!((state == 39 || state == 36)))
+    if (!((state == 39 || state == 21 || state == 36)))
         baddiegrabbedID = 0
     if grinding
         state = 38
@@ -425,7 +428,7 @@ with (obj_player)
         instance_create(x, y, obj_speedlines)
 }
 scr_collide_destructibles()
-if (state != 1 && state != 71 && state != 56 && state != 54 && state != 81 && state != 49 && state != 57 && state != 12 && state != 29 && state != 16 && state != 48)
+if (state != 200 && state != 1 && state != 71 && state != 56 && state != 54 && state != 81 && state != 49 && state != 57 && state != 12 && state != 29 && state != 16 && state != 48)
     scr_collide_player()
 if (state == 81)
     scr_collide_player()

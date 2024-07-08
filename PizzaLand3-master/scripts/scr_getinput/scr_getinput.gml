@@ -19,7 +19,7 @@ function scr_getinput()
 	key_start = (keyboard_check_pressed(global.key_start) || gamepad_button_check_pressed(0, global.key_startC) || keyboard_check_pressed(vk_return))
 	key_escape = (keyboard_check_pressed(vk_escape) || gamepad_button_check(0, gp_select) || keyboard_check_pressed(vk_escape))
 	gamepad_set_axis_deadzone(0, 0.5)
-	if (keyboard_check(vk_f1) && global.funmode == 0)
+	/*if (keyboard_check(vk_f1) && global.funmode == 0)
 	{
 	    global.funmode = 1
 	    with (obj_tv)
@@ -29,7 +29,14 @@ function scr_getinput()
 	        image_speed = 0
 	        message = "FUN MODE ACTIVATED"
 	    }
+	}*/
+	
+	if (keyboard_check_pressed(vk_f5))
+	{
+		if obj_player.state != 200 obj_player.state = 200
+		else obj_player.state = 0
 	}
+
 	if (keyboard_check(vk_f2) && obj_player.character == "P")
 	{
 	    with (obj_player)

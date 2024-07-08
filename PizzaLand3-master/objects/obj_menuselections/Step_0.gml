@@ -66,7 +66,7 @@ else if (levelselect == 0)
     }
     if (optionselect == 1 && (!instance_exists(obj_keyconfig)))
     {
-        if keyboard_check_pressed(global.key_jump)
+        if keyboard_check_pressed(global.key_jump) || keyboard_check_pressed(ord("Z"))
         {
             scr_sound(sound_pizzagot)
             instance_create(x, y, obj_keyconfig)
