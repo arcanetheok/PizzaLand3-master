@@ -51,7 +51,7 @@ function scr_player_grabbing()
 	}
 	if (key_jump && grounded && (!key_down) && (!key_attack))
 	{
-	    vsp = -9
+	    vsp = -11
 	    image_index = 0
 	    sprite_index = spr_player_grabbingjump
 	}

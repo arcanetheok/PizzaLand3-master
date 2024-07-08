@@ -2,6 +2,8 @@ if (jingle == 0)
 {
     if (room == Realtitlescreen)
         currentlyplaying = music_title
+	if (room == ants_path0_room1)
+		currentlyplaying = music_ants
     if (global.panic == 0)
     {
         switch room
