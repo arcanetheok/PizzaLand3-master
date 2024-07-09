@@ -12,6 +12,7 @@
     {"name":"lgoo","order":829,"path":"sprites/lgoo/lgoo.yy",},
     {"name":"fire","order":828,"path":"sprites/fire/fire.yy",},
     {"name":"laughing_hill_is_back","order":827,"path":"sprites/laughing_hill_is_back/laughing_hill_is_back.yy",},
+    {"name":"ants_path1_room3","order":3,"path":"rooms/ants_path1_room3/ants_path1_room3.yy",},
     {"name":"scr_utils","order":1,"path":"scripts/scr_utils/scr_utils.yy",},
     {"name":"spr_worldmap","order":826,"path":"sprites/spr_worldmap/spr_worldmap.yy",},
     {"name":"sound_points3","order":2,"path":"sounds/sound_points3/sound_points3.yy",},
