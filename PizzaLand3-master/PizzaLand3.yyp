@@ -272,6 +272,7 @@
     {"id":{"name":"obj_explosioneffect","path":"objects/obj_explosioneffect/obj_explosioneffect.yy",},},
     {"id":{"name":"obj_pistoleffect","path":"objects/obj_pistoleffect/obj_pistoleffect.yy",},},
     {"id":{"name":"obj_shotgunjumpeffect","path":"objects/obj_shotgunjumpeffect/obj_shotgunjumpeffect.yy",},},
+    {"id":{"name":"spr_trees_ants","path":"sprites/spr_trees_ants/spr_trees_ants.yy",},},
     {"id":{"name":"floort_room1","path":"rooms/floort_room1/floort_room1.yy",},},
     {"id":{"name":"obj_superslameffect","path":"objects/obj_superslameffect/obj_superslameffect.yy",},},
     {"id":{"name":"obj_spikehurteffect","path":"objects/obj_spikehurteffect/obj_spikehurteffect.yy",},},
@@ -1103,6 +1104,7 @@
     {"id":{"name":"spr_playerN_piledriverland","path":"sprites/spr_playerN_piledriverland/spr_playerN_piledriverland.yy",},},
     {"id":{"name":"spr_worldmapspot","path":"sprites/spr_worldmapspot/spr_worldmapspot.yy",},},
     {"id":{"name":"spr_playerN_charge","path":"sprites/spr_playerN_charge/spr_playerN_charge.yy",},},
+    {"id":{"name":"ants_path1_room4","path":"rooms/ants_path1_room4/ants_path1_room4.yy",},},
     {"id":{"name":"spr_grass_tile","path":"sprites/spr_grass_tile/spr_grass_tile.yy",},},
     {"id":{"name":"spr_noisepalette","path":"sprites/spr_noisepalette/spr_noisepalette.yy",},},
     {"id":{"name":"spr_phonedebris","path":"sprites/spr_phonedebris/spr_phonedebris.yy",},},
@@ -1566,6 +1568,7 @@
     {"roomId":{"name":"ants_path1_room1","path":"rooms/ants_path1_room1/ants_path1_room1.yy",},},
     {"roomId":{"name":"ants_path1_room2","path":"rooms/ants_path1_room2/ants_path1_room2.yy",},},
     {"roomId":{"name":"ants_path1_room3","path":"rooms/ants_path1_room3/ants_path1_room3.yy",},},
+    {"roomId":{"name":"ants_path1_room4","path":"rooms/ants_path1_room4/ants_path1_room4.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
