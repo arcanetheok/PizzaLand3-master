@@ -21,7 +21,7 @@ if (levelselect == 1)
                 if (other.b == 0)
                     obj_player.targetRoom = ants_path0_room1
 				else
-					obj_player.targetRoom = ants_path1_room2
+					obj_player.targetRoom = pivhouse
 				obj_player.targetDoor = "1"
 				obj_player.character = "P"
             }

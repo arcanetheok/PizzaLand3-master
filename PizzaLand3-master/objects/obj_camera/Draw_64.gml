@@ -1,3 +1,5 @@
+if !global.hub
+{
 draw_sprite_ext(spr_hud_pumpkin_background, 0, 615, 402, 1, 1, 1, c_white, alpha)
 draw_sprite_ext(sprite_index, -1, 615, 402, 1, 1, 1, c_white, alpha)
 draw_sprite_ext(spr_hud_pumpkin, 0, 615, 402, 1, 1, 1, c_white, alpha)
@@ -8,6 +10,7 @@ draw_set_font(font)
 draw_set_halign(fa_center)
 draw_set_color(c_white)
 draw_text(813, 460, string_hash_to_newline(global.collect))
+}
 
 /*
 collecting a disc cahgning face
@@ -21,7 +24,6 @@ draw_sprite_ext(spr_hud_pumpkin, 0, 615, 402, 1, 1, 1, c_white, alpha)
 draw_sprite_ext(spr_hud_pumpkin_background, 0, 608, 392, 1, 1, 1, c_white, alpha)
 draw_sprite_ext(spr_hud_pumpkin_piv_smile, -1, 608, 392, 1, 1, 1, c_white, alpha)
 draw_sprite_ext(spr_hud_pumpkin, 0, 608, 392, 1, 1, 1, c_white, alpha)
-
 
 
 

@@ -21,3 +21,8 @@ if (global.sausagefollow == 1)
     instance_create(x, y, obj_pizzakinsausage)
 if (global.pineapplefollow == 1)
     instance_create(x, y, obj_pizzakinpineapple)
+
+if room = pivhouse //|| room = hub
+	global.hub = 1
+else
+	global.hub = 0

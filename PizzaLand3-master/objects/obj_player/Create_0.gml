@@ -179,4 +179,5 @@ with (obj_player) // what did mcpig mean by this -dist
     global.funmode = 0
 	hallway = 0
 	hallwaydirection = 0
+	global.hub = 0
 }

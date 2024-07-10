@@ -16,3 +16,10 @@ if place_meeting(x, (y + floor(vsp)), obj_null)
     vsp = 0
 }
 y += floor(vsp)
+if vsp > 1
+{
+	if image_xscale == 1
+		image_angle += 10
+	if image_xscale != 1
+		image_angle -= 10
+}

@@ -2,6 +2,7 @@
   "FolderOrderSettings": [
     {"name":"Distbug Menu","order":2,"path":"folders/Distbug Menu.yy",},
     {"name":"Scripts","order":1,"path":"folders/Distbug Menu/Scripts.yy",},
+    {"name":"test level kinda","order":47,"path":"folders/Rooms/test level kinda.yy",},
     {"name":"test_world","order":45,"path":"folders/Rooms/test_world.yy",},
     {"name":"misc","order":831,"path":"folders/Sprites/misc.yy",},
     {"name":"targdoor","order":832,"path":"folders/Sprites/targdoor.yy",},
@@ -356,6 +357,7 @@
     {"name":"spr_player_chainsawswing","order":544,"path":"sprites/spr_player_chainsawswing/spr_player_chainsawswing.yy",},
     {"name":"spr_player_facehurtup","order":548,"path":"sprites/spr_player_facehurtup/spr_player_facehurtup.yy",},
     {"name":"spr_player_facehurt","order":542,"path":"sprites/spr_player_facehurt/spr_player_facehurt.yy",},
+    {"name":"spr_fireball","order":852,"path":"sprites/spr_fireball/spr_fireball.yy",},
     {"name":"spr_player_mach3jump","order":543,"path":"sprites/spr_player_mach3jump/spr_player_mach3jump.yy",},
     {"name":"spr_player_bodyslamland","order":547,"path":"sprites/spr_player_bodyslamland/spr_player_bodyslamland.yy",},
     {"name":"spr_player_bodyslamfall","order":546,"path":"sprites/spr_player_bodyslamfall/spr_player_bodyslamfall.yy",},

@@ -6,3 +6,11 @@ cigar = 0
 stomped = 0
 if (x != obj_player.x)
     image_xscale = (-(sign((x - obj_player.x))))
+if image_xscale == 1
+{
+	image_angle = 25
+}
+if image_xscale != 1
+{
+	image_angle = -25
+}
