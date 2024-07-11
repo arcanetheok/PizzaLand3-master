@@ -1,7 +1,9 @@
 n = 0
 image_speed = 0.35
-sprite_index = spr_hud_pumpkin_piv
+//sprite_index = spr_hud_pumpkin_piv
 alarm[1] = 60
+pivspr_index = 0
+pivspr = spr_hud_pumpkin_piv
 global.seconds = 59
 global.minutes = 1
 angle = 0
