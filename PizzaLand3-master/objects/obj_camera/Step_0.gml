@@ -2,6 +2,22 @@ if (room == rank_room || room == timesuproom || room == Realtitlescreen)
     visible = false
 else
     visible = true
+	
+pivspr_index += 0.35 
+if pivspr_index > sprite_get_number(pivspr)
+{
+	pivspr_index = 0
+	pivspr = choose
+	(
+	spr_hud_pumpkin_piv,
+	spr_hud_pumpkin_piv_nothingsorry,
+	spr_hud_pumpkin_piv_stare, 
+	spr_hud_pumpkin_piv_smile,
+	spr_hud_pumpkin_piv_lookie
+	)
+	// ignore the questionable formatting :) -dist
+}
+
 if (global.panic == 1)
     timestop = 0
 else
@@ -43,12 +59,12 @@ if (shake_mag > 0)
 if (instance_exists(obj_player) && obj_player.state != 29 && obj_player.state != 48 && room != rm_worldmap)
 {
     var target = obj_player
-    if (obj_player.state == 83 || obj_player.state == 30)
+    if (obj_player.state == 63) && obj_player.movespeed >= 11
     {
         if (chargecamera > (obj_player.xscale * 100))
-            chargecamera -= 2
+            chargecamera -= 1
         if (chargecamera < (obj_player.xscale * 100))
-            chargecamera += 2
+            chargecamera += 1
         __view_set(0, 0, ((target.x - (__view_get(2, 0) / 2)) + chargecamera))
     }
     else

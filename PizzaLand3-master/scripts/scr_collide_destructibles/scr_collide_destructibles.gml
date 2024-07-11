@@ -8,7 +8,7 @@ function scr_collide_destructibles()
 	            instance_destroy()
 	    }
 	}
-	else if !scr_transformationcheck() && place_meeting((x + hsp), y, obj_destructibles)
+	/*else if scr_transformationcheck() && place_meeting((x + hsp), y, obj_destructibles)
 	{
 		scr_sound(sound_suplex1)
 	    movespeed = 0
@@ -22,7 +22,7 @@ function scr_collide_destructibles()
 		// it didnt work first try. -dist
 		// surely second try tho -dist
 		// IT WORKS -dist
-	}
+	}*/
 	if (state == 17 || state == 36 || state == 2)
 	{
 	    if place_meeting(x, (y + 1), obj_destructibles)
