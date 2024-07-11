@@ -37,7 +37,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
@@ -1577,6 +1577,7 @@
     {"roomId":{"name":"ants_path1_room4","path":"rooms/ants_path1_room4/ants_path1_room4.yy",},},
     {"roomId":{"name":"test_1","path":"rooms/test_1/test_1.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"png","directory":"","groupParent":null,"isScaled":false,"loadType":"default","mipsToGenerate":0,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"texture_baddies","autocrop":true,"border":2,"compressFormat":"png","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
