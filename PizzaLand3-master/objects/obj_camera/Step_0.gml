@@ -62,9 +62,9 @@ if (instance_exists(obj_player) && obj_player.state != 29 && obj_player.state !=
     if (obj_player.state == 63) && obj_player.movespeed >= 11
     {
         if (chargecamera > (obj_player.xscale * 100))
-            chargecamera -= 1
+            chargecamera -= 0
         if (chargecamera < (obj_player.xscale * 100))
-            chargecamera += 1
+            chargecamera += 0
         __view_set(0, 0, ((target.x - (__view_get(2, 0) / 2)) + chargecamera))
     }
     else
