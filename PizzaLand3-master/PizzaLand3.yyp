@@ -1483,6 +1483,7 @@
     {"id":{"name":"spr_pineapplecollect","path":"sprites/spr_pineapplecollect/spr_pineapplecollect.yy",},},
     {"id":{"name":"spr_pizzacollect2","path":"sprites/spr_pizzacollect2/spr_pizzacollect2.yy",},},
     {"id":{"name":"spr_tomatocollect","path":"sprites/spr_tomatocollect/spr_tomatocollect.yy",},},
+    {"id":{"name":"ants_path1_room3b","path":"rooms/ants_path1_room3b/ants_path1_room3b.yy",},},
     {"id":{"name":"spr_cheesecollect","path":"sprites/spr_cheesecollect/spr_cheesecollect.yy",},},
     {"id":{"name":"spr_sausagecollect","path":"sprites/spr_sausagecollect/spr_sausagecollect.yy",},},
     {"id":{"name":"spr_desertdestroyable","path":"sprites/spr_desertdestroyable/spr_desertdestroyable.yy",},},
@@ -1709,6 +1710,7 @@
     {"roomId":{"name":"ants_path1_room3","path":"rooms/ants_path1_room3/ants_path1_room3.yy",},},
     {"roomId":{"name":"ants_path1_room4","path":"rooms/ants_path1_room4/ants_path1_room4.yy",},},
     {"roomId":{"name":"test_1","path":"rooms/test_1/test_1.yy",},},
+    {"roomId":{"name":"ants_path1_room3b","path":"rooms/ants_path1_room3b/ants_path1_room3b.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

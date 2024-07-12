@@ -932,6 +932,7 @@
     {"name":"spr_pineapplecollect","order":100,"path":"sprites/spr_pineapplecollect/spr_pineapplecollect.yy",},
     {"name":"spr_pizzacollect2","order":92,"path":"sprites/spr_pizzacollect2/spr_pizzacollect2.yy",},
     {"name":"spr_tomatocollect","order":94,"path":"sprites/spr_tomatocollect/spr_tomatocollect.yy",},
+    {"name":"ants_path1_room3b","order":5,"path":"rooms/ants_path1_room3b/ants_path1_room3b.yy",},
     {"name":"spr_cheesecollect","order":96,"path":"sprites/spr_cheesecollect/spr_cheesecollect.yy",},
     {"name":"spr_sausagecollect","order":93,"path":"sprites/spr_sausagecollect/spr_sausagecollect.yy",},
     {"name":"spr_desertdestroyable","order":91,"path":"sprites/spr_desertdestroyable/spr_desertdestroyable.yy",},
