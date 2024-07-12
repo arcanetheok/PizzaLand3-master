@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_barrel",
-    "path": "sprites/spr_barrel/spr_barrel.yy",
+    "name": "spr_pushblock1",
+    "path": "sprites/spr_pushblock1/spr_pushblock1.yy",
   },
   "spriteMaskId": {
     "name": "spr_barrel",

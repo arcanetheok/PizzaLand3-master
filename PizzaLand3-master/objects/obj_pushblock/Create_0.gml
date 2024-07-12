@@ -8,3 +8,4 @@ grounded = 1
 state = 0
 thrown = 0
 slide = 1
+sprite_index = spr_pushblock1

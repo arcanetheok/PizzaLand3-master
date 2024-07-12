@@ -20,6 +20,7 @@ if grounded && slide == 1
 else if grounded
 {
 	hsp = 0
+	sprite_index = spr_pushblock1
 }
 
 if thrown == 1 

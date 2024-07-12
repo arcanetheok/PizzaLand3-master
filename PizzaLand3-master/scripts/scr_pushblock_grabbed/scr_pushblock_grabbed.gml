@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_pushblock_grabbed()
 {
+	sprite_index = spr_pushblock2
 	mask_index = spr_masknull
 	grav = 0
 	//image_xscale = (-obj_player.xscale)
