@@ -4,8 +4,10 @@ function scr_solid_player()
 	var old_y = y
 	x = argument0
 	y = argument1
-	var place_object = instance_place(x, y, obj_solid)
-	if place_object != noone && !(place_object.object_index == obj_pushblock && place_object.state == 101)
+	var place_object = instance_place(x, y, obj_solid) 
+	var place_pushblock = instance_place(x, y, obj_pushblock)
+	if place_pushblock != noone && (place_pushblock.state == 101 || place_pushblock.state == 1) place_pushblock = noone
+	if place_object || place_pushblock
 	{
 	    x = old_x
 	    y = old_y

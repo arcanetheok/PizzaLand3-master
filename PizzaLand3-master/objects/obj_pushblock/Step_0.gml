@@ -5,17 +5,25 @@ switch state
 	scr_pushblock_grabbable()
 	break
 	
+	case 1:
+	scr_pushblock_bouncing()
+	
 	case 101:
 	scr_pushblock_grabbed()
 	break
 }
 
 //if (vsp < 12)
-vsp += grav
-if state == 0 grav = 0.3
+
+if state == 0 || state == 1
+{
+	grav = 0.3
+	vsp += grav
+}
 if grounded && slide == 1
 {
     hsp = approach(hsp, 0, 0.5)
+	sprite_index = spr_pushblock1
 }
 else if grounded && vsp > 0
 {

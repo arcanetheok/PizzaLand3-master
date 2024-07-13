@@ -950,6 +950,7 @@
     {"id":{"name":"spr_player_suplexmash3","path":"sprites/spr_player_suplexmash3/spr_player_suplexmash3.yy",},},
     {"id":{"name":"spr_player_suplexmash2","path":"sprites/spr_player_suplexmash2/spr_player_suplexmash2.yy",},},
     {"id":{"name":"scribble_external_sound_exists","path":"scripts/scribble_external_sound_exists/scribble_external_sound_exists.yy",},},
+    {"id":{"name":"scr_pushblock_bouncing","path":"scripts/scr_pushblock_bouncing/scr_pushblock_bouncing.yy",},},
     {"id":{"name":"spr_player_suplexmash1","path":"sprites/spr_player_suplexmash1/spr_player_suplexmash1.yy",},},
     {"id":{"name":"spr_player_suplexdash","path":"sprites/spr_player_suplexdash/spr_player_suplexdash.yy",},},
     {"id":{"name":"spr_player_slaprun1","path":"sprites/spr_player_slaprun1/spr_player_slaprun1.yy",},},

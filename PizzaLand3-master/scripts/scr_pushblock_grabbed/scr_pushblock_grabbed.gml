@@ -5,7 +5,7 @@ function scr_pushblock_grabbed()
 	scr_getinput()
 	//mask_index = spr_masknull
 	sprite_index = spr_pushblock2
-	mask_index = spr_masknull
+	//mask_index = spr_masknull
 	grav = 0
 	//image_xscale = (-obj_player.xscale)
 	//stunned = 200
@@ -40,13 +40,13 @@ function scr_pushblock_grabbed()
 	            shake_mag_acc = (3 / room_speed)
 	        }
 	    }*/
-	    if (!((state == 39 || state == 21 || state == 34 || state == 35 || state == 88 || state == 40 || state == 36 || state == 41 || state == 42 || state == 43)))
+	    /*if (!((state == 1 || state == 0 || state == 39 || state == 21 || state == 34 || state == 35 || state == 88 || state == 40 || state == 36 || state == 41 || state == 42 || state == 43)))
 	    {
 	        other.x = x
 	        other.y = y
 	        other.state = 0
 	        other.image_index = 0
-	    }
+	    }*/
 	}
 	hsp = 0
 	if (obj_player.state == 40 && floor(obj_player.image_index) == 2)
@@ -60,7 +60,7 @@ function scr_pushblock_grabbed()
 	    thrown = 1
 	    x = obj_player.x
 	    y = obj_player.y
-	    state = 0
+	    state = 1
 	    hsp = ((-image_xscale) * 16)
 	    //grav = 0
 	    vsp = -5
@@ -85,7 +85,7 @@ function scr_pushblock_grabbed()
 	    thrown = 1
 	    x = obj_player.x
 	    y = obj_player.y
-	    state = 0
+	    state = 1
 	    image_xscale *= -1
 	    hsp = ((-image_xscale) * 16)
 	    vsp = -7
@@ -93,7 +93,7 @@ function scr_pushblock_grabbed()
 	    instance_create(x, y, obj_slapstar)
 	    instance_create(x, y, obj_baddiegibs)
 	    //flash = 1
-		mask_index = spr_masknull
+		//mask_index = spr_masknull
 	    with (obj_camera)
 	    {
 	        shake_mag = 3
@@ -111,7 +111,7 @@ function scr_pushblock_grabbed()
 	    thrown = 1
 	    x = obj_player.x
 	    y = obj_player.y
-	    state = 0
+	    state = 1
 	    hsp = ((-image_xscale) * 16)
 	    vsp = -10
 	    global.combotime = 60
@@ -134,7 +134,7 @@ function scr_pushblock_grabbed()
 	    thrown = 1
 	    x = obj_player.x
 	    y = obj_player.y
-	    state = 0
+	    state = 1
 	    hsp = ((-image_xscale) * 16)
 	    vsp = -10
 	}
@@ -150,7 +150,7 @@ function scr_pushblock_grabbed()
 	    x = obj_player.x
 	    y = obj_player.y
 	    hsp = ((-image_xscale) * 5)
-	    state = 0
+	    state = 1
 	    vsp = -14
 	    global.combotime = 60
 	    instance_create(x, y, obj_slapstar)
@@ -181,7 +181,7 @@ function scr_pushblock_grabbed()
 	    thrown = 1
 	    x = obj_player.x
 	    y = obj_player.y
-	    state = 0
+	    state = 1
 	    hsp = ((-image_xscale) * 16)
 	    vsp = -10
 	    with (obj_camera)
@@ -264,7 +264,7 @@ function scr_pushblock_grabbed()
 	        thrown = 1
 	        x = obj_player.x
 	        y = obj_player.y
-	        state = 0
+	        state = 1
 	        hsp = ((-image_xscale) * 16)
 	        vsp = -10
 	    }
