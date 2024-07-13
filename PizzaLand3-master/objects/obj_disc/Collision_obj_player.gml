@@ -7,7 +7,6 @@ with (obj_player)
     if (other.sprite_index == other.spridle)
     {
         state = 16
-		audio_stop_all()
         obj_music.jingle = 1
         scr_sound(sound_treasuregot)
         other.alarm[0] = 120
