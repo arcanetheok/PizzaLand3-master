@@ -2,8 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_pushblock_grabbed()
 {
+	scr_getinput()
 	sprite_index = spr_pushblock2
-	mask_index = spr_masknull
+	//mask_index = spr_masknull
 	grav = 0
 	//image_xscale = (-obj_player.xscale)
 	//stunned = 200
@@ -147,9 +148,12 @@ function scr_pushblock_grabbed()
 	    thrown = 1
 	    x = obj_player.x
 	    y = obj_player.y
-	    hsp = ((-image_xscale) * 5)
+	    hsp = 0
 	    state = 0
-	    vsp = -14
+	    vsp = -10
+		if key_up vsp = -15
+		move = (key_left2 + key_right2)
+		if move != 0 hsp = (obj_player.xscale * 6)
 	    global.combotime = 60
 	    instance_create(x, y, obj_slapstar)
 	    instance_create(x, y, obj_baddiegibs)

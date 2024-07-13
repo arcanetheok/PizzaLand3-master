@@ -17,7 +17,7 @@ if grounded && slide == 1
 {
     hsp = approach(hsp, 0, 0.5)
 }
-else if grounded
+else if grounded && vsp > 0
 {
 	hsp = 0
 	sprite_index = spr_pushblock1
@@ -25,7 +25,7 @@ else if grounded
 
 if thrown == 1 
 {
-	mask_index = spr_masknull
+//	mask_index = spr_masknull
 	thrown = 0
 	slide = 1
 }
