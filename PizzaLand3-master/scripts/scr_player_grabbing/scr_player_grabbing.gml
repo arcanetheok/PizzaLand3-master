@@ -17,22 +17,12 @@ function scr_player_grabbing()
 	    movespeed = 0
 	if (xscale == -1 && move == 1)
 	    movespeed = 0
-	if (key_attack2 && key_up && grounded)
+	if (key_attack2 && grounded)
 	{
-	    hsp = 0
 	    movespeed = 0
-	    state = 42
-	    image_index = 1
-	    image_speed = 0.35
-	    scr_sound(sound_enemyslap)
-	}
-	if key_down 
-	{
-		state = 0
-		image_index = 0
-		hsp = 0
-		movespeed = 0
-		image_speed = 0.35
+	    image_index = 0
+	    state = 39
+		sprite_index = spr_player_grab
 	}
 	//if (key_attack && (!grounded))
 	//{
