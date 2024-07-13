@@ -8,11 +8,11 @@ if (pause == 1)
 }
 		if (pause == 1)
 				{
-				if !audio_is_playing(music_pause)
-				audio_play_sound(music_pause, 1, true)
+				if !audio_is_playing(musics_pause)
+				audio_play_sound(musics_pause, 1, true)
 				}
 			if (stopmusic == 1)
 				{
-				audio_stop_sound(music_pause)
+				audio_stop_sound(musics_pause)
 				}
 				

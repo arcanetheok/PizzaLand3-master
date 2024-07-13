@@ -3,7 +3,6 @@
 function scr_pushblock_grabbed()
 {
 	scr_getinput()
-	sprite_index = spr_pushblock2
 	//mask_index = spr_masknull
 	grav = 0
 	//image_xscale = (-obj_player.xscale)

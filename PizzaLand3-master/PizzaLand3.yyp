@@ -301,7 +301,7 @@
     {"id":{"name":"obj_chargeeffect","path":"objects/obj_chargeeffect/obj_chargeeffect.yy",},},
     {"id":{"name":"tile_grass","path":"tilesets/tile_grass/tile_grass.yy",},},
     {"id":{"name":"obj_pogoeffect","path":"objects/obj_pogoeffect/obj_pogoeffect.yy",},},
-    {"id":{"name":"music_pause","path":"sounds/music_pause/music_pause.yy",},},
+    {"id":{"name":"musics_pause","path":"sounds/musics_pause/musics_pause.yy",},},
     {"id":{"name":"spr_banban","path":"sprites/spr_banban/spr_banban.yy",},},
     {"id":{"name":"obj_chainsaweffect","path":"objects/obj_chainsaweffect/obj_chainsaweffect.yy",},},
     {"id":{"name":"obj_explosioneffect","path":"objects/obj_explosioneffect/obj_explosioneffect.yy",},},
