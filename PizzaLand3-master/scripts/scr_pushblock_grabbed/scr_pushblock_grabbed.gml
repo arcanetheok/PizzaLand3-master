@@ -266,7 +266,7 @@ function scr_pushblock_grabbed()
 	        y = obj_player.y
 	        state = 1
 	        hsp = ((-image_xscale) * 16)
-	        vsp = -10
+	        vsp = -15
 	    }
 	}
 	//sprite_index = grabbedspr
