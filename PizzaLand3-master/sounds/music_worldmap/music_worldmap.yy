@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "music_title",
+  "name": "music_worldmap",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 113.004,
+  "duration": 66.168,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "preload": true,
+  "preload": false,
   "sampleRate": 44100,
-  "soundFile": "music_title.mp3",
+  "soundFile": "music_worldmap.mp3",
   "type": 0,
   "volume": 1.0,
 }

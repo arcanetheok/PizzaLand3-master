@@ -32,7 +32,7 @@ if (levelselect == 1)
             {
                 if (other.b == 0)
                 {
-                    obj_player.targetRoom = rm_worldmap
+                    obj_player.targetRoom = pivhouse
 					obj_player.targetDoor = "1"
                     obj_player.character = "P"
                 }
