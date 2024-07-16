@@ -39,8 +39,8 @@
     "path": "sprites/spr_firechud_idle/spr_firechud_idle.yy",
   },
   "spriteMaskId": {
-    "name": "spr_slimehitbox",
-    "path": "sprites/spr_slimehitbox/spr_slimehitbox.yy",
+    "name": "spr_player_mask",
+    "path": "sprites/spr_player_mask/spr_player_mask.yy",
   },
   "visible": true,
 }

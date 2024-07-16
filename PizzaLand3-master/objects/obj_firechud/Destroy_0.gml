@@ -60,10 +60,9 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
             instance_create(x, y, obj_slimedebris)
             hsp *= 3
             vsp *= 3
-						
-		scr_sound(choose(sound_combo1, sound_combo2, sound_combo3))
-        instance_create(x, y, obj_5)
-        global.collect += 5
+			{				
+			scr_sound(choose(sound_combo1, sound_combo2, sound_combo3))
+			}
 		}
 	}
 }
