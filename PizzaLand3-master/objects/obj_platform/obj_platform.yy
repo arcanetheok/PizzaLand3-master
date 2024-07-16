@@ -30,5 +30,5 @@
     "path": "sprites/spr_banban/spr_banban.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
