@@ -1,2 +1,2 @@
-level = "LEVEL2";
-trgRoom = ants_path0_room3
+targetRoom = ants_path0_room1
+targetDoor = "1"

@@ -1,2 +1,2 @@
-level = "LEVEL1";
-trgRoom = ants_path0_room1;
+targetRoom = alex_path0_room1
+targetDoor = "1"
