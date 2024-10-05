@@ -9,7 +9,6 @@ if (pause == 1)
 }
 if (pause == 1)
 {
-
 	draw_sprite(spr_pause_piv_break, 0, 0, 0)
 	image_speed = 0.35
 }

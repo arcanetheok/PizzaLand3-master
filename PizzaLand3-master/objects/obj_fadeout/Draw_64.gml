@@ -1,1 +1,1 @@
-draw_text(480, 320, "VIS")
+//draw_text(480, 320, "VIS")
